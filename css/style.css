@@ -1,0 +1,33 @@
+body {
+  background-color: #2d2e32;
+  color: #f3f4ee;
+  font-family: "Red Hat Mono", monospace;
+  /* font-family: "BIZ UDGothic", sans-serif; */
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+}
+/* SECTION DE HEADER */
+.div-lista {
+  width: 100%;
+  text-align: center;
+}
+
+.div-lista ul {
+  width: 60%;
+}
+.div-lista li {
+  margin-left: 20px;
+}
+
+.div-lista a {
+  color: #f3f4ee;
+}
+.div-lista a.active {
+  color: #f4e9b4;
+}
+.div-lista a:hover {
+  color: #f4e9b4;
+}
