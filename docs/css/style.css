@@ -2,12 +2,16 @@ body {
   background-color: #2d2e32;
   color: #f3f4ee;
   font-family: "Red Hat Mono", monospace;
-  /* font-family: "BIZ UDGothic", sans-serif; */
+  overflow: initial;
+  overflow-x: scroll;
 }
 
 a {
   list-style: none;
   text-decoration: none;
+}
+h2 {
+  color: #ffe268;
 }
 /* SECTION DE HEADER */
 .div-lista {
@@ -26,8 +30,309 @@ a {
   color: #f3f4ee;
 }
 .div-lista a.active {
-  color: #f4e9b4;
+  color: #ffe268;
 }
 .div-lista a:hover {
-  color: #f4e9b4;
+  color: #ffe268;
+}
+
+.boton {
+  position: fixed;
+  z-index: 1;
+  top: 50rem;
+  left: 115rem;
+
+  background-color: #ffe268;
+}
+
+.boton a {
+  color: #f3f4ee;
+}
+.redesSociales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+.redesSociales span {
+  border-radius: 7px;
+  width: 100px;
+  height: 50px;
+  object-fit: cover;
+  color: #fff;
+  margin: 20px;
+}
+.bock-header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+/* SECTION DE BLOCK-ONE */
+
+.block-one-text {
+  position: relative;
+}
+.block-one-deverlope {
+  /* width: 30%; */
+}
+.block-one-hijo {
+  margin: 1rem;
+  padding: 20px;
+  height: 25%;
+  margin-top: 10rem;
+}
+
+.block-one-hijo > * {
+  margin: 2rem;
+  box-sizing: border-box;
+}
+.block-one-image {
+  width: 100%;
+  padding: 10px;
+}
+.block-one-image img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  /* padding: 10px; */
+  box-shadow: 0 0 10px 4px #2f5d62;
+}
+.block-one-hijo a {
+  background-color: #25262a;
+  box-shadow: 5px 5px 15px 5px #2f5d62;
+  color: #ffe268;
+  /* color: #2f5d62; */
+  border: solid 2px transparent;
+}
+
+.block-one-hijo a:hover {
+  border: solid 2px #ccc;
+  color: #ccc;
+  /* color: #ffe268; */
+  background: #101111;
+}
+.block-one-chat-p {
+  font-size: 20px;
+  color: #ffe268;
+  padding: 10px;
+}
+
+.block-one-icon {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.block-one-icon span {
+  font-size: 3rem;
+}
+
+.block-one-icon .iconos {
+  background: #e65a27;
+}
+
+/* SECTION cuadros  DE BLOCK TWO */
+.block-two-top {
+  position: relative;
+}
+.block-two-boxs {
+  position: relative;
+  top: 5rem;
+  box-sizing: border-box;
+}
+.block-two-boxs > * {
+  margin: 13px;
+  box-sizing: border-box;
+  /* border: #e927bf solid 4px; */
+  padding: 10px;
+}
+.block-two-box h2 {
+  color: #ffb037;
+}
+.block-two-name span {
+  color: #ffb037;
+}
+
+.block-two-name {
+  /* border: #d38115 solid 4px; */
+  text-align: center;
+  padding: 20px;
+}
+.block-two-box span {
+  position: relative;
+  color: #2f5d62;
+  margin-left: 90%;
+  font-size: 30px;
+  top: -30px;
+}
+
+.block-two-img img {
+  width: 70%;
+}
+
+.block-two-box {
+  margin-top: 30px;
+  padding: 20px;
+  color: #ccc;
+
+  border-radius: 5px;
+  background-color: #25262a;
+  -webkit-box-shadow: 5px 5px 15px 5px #ffe268;
+  box-shadow: 5px 5px 15px 5px #2f5d62;
+}
+/* SECTION BLOCK- html css THEE-GAFICO */
+
+.block-theer-grafico > * {
+  position: relative;
+  top: 10rem;
+  margin: 6px;
+  padding: 20px;
+  /* border: #07cf28 solid 4px; */
+}
+.block-theer-filas > * {
+  border: solid 3px #2f5d62;
+  margin: 10px;
+  padding: 20px;
+  background: #25262a;
+  box-shadow: 5px 5px 15px 5px #2f5d62;
+}
+.react {
+  background-color: #5ed2f3;
+  color: #fff;
+  width: 50%;
+  margin: auto;
+}
+.html {
+  background-color: #eb4d28;
+  color: #fff;
+  width: 50%;
+  margin: auto;
+}
+.css {
+  background-color: #146eb0;
+  color: #fff;
+  width: 50%;
+  margin: auto;
+}
+
+.booststrap {
+  background-color: #7952b3;
+  color: #fff;
+  width: 70%;
+  margin: auto;
+}
+.javascript {
+  background-color: #f7df1e;
+  color: #25262a;
+  width: 50%;
+  margin: auto;
+}
+.gitgub {
+  background-color: #25262a;
+  color: #ccc;
+  width: 50%;
+  margin: auto;
+}
+.git {
+  background-color: #eb4d28;
+  color: #f7f9fd;
+  width: 50%;
+  margin: auto;
+}
+.block-theer-filas span {
+  font-family: "BIZ UDGothic", sans-serif;
+}
+.block-theer-grafico img {
+  width: 35%;
+}
+
+/* SECTION BLOCK-FOUR-PAGES */
+
+.block-four-pages > * {
+  position: relative;
+  top: 6rem;
+  margin: 15px;
+}
+.block-four-pages > * h2 {
+  color: #ffe268;
+}
+
+.bock-four-fila > * {
+  margin: 15px;
+  /* border: #2f5d62 solid 3px; */
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #25262a;
+  /* background: #25262a; */
+  box-shadow: 5px 5px 15px 5px #2f5d62;
+}
+.bock-four-fila a {
+  color: #fff;
+}
+
+.block-four-pages img {
+  width: 100%;
+}
+.manto:hover {
+  position: relative;
+  display: block;
+  background: #101111;
+  /* background: #364547; */
+  /* box-shadow: 5px 5px 15px 5px #364547; */
+  box-shadow: 5px 5px 15px 5px #2f5d62;
+}
+
+.instagram {
+  color: #d53464;
+}
+
+.twitter {
+  color: #1c96e8;
+}
+
+.linkedin {
+  color: #2663ac;
+}
+
+.github {
+  color: #062636;
+}
+.body-footer {
+  background-color: #25262a;
+}
+.body-footer > * {
+  /* border: #7952b3 solid 3px; */
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+}
+.fondo-icono {
+  position: relative;
+  margin: 20px;
+  padding: 10px;
+  top: 10px;
+  color: #1877f2;
+  background: #fff;
+  font-size: 30px;
+  border-radius: 50%;
+  width: 50%;
+}
+/* FORMULARIO =================================== */
+
+.paleta-de-colore {
+  background: #364547;
+  color: #364547;
+  background: #2f5d62;
+  color: #2f5d62;
+  background: #ffe268;
+  color: #ffe268;
+  background: #ffb037;
+  color: #ffb037;
+  /* color pagina seguir */
+  background: #2d2e32;
+  color: #2d2e32;
+  background: #25262a;
+  color: #25262a;
+  background: #f3f4ee;
+  color: #f3f4ee;
 }
