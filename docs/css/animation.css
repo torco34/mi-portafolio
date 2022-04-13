@@ -1,11 +1,6 @@
 /*borbujas*/
 .burbujas div {
   position: absolute;
-  /* display: grid; */
-  /* align-items: center; */
-  /* justify-content: center; */
-  /*color: #e3b155;*/
-  /* color: #fff; */
 }
 
 .burbuja {

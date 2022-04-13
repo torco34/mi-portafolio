@@ -75,7 +75,7 @@ form.form_contact {
 
 .formulario > * {
   position: relative;
-  z-index: 2;
+  /* z-index: 2; */
   color: #fff;
   font-family: "Red Hat Mono", monospace;
 }
