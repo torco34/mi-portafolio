@@ -141,20 +141,17 @@ h2 {
   box-sizing: border-box;
 }
 .block-two-boxs > * {
-  margin: 13px;
   box-sizing: border-box;
-  /* border: #e927bf solid 4px; */
   padding: 10px;
 }
 .block-two-box h2 {
-  color: #ffb037;
+  color: #ffe268;
 }
 .block-two-name span {
-  color: #ffb037;
+  color: #ffe268;
 }
 
 .block-two-name {
-  /* border: #d38115 solid 4px; */
   text-align: center;
   padding: 20px;
 }
@@ -259,7 +256,7 @@ h2 {
 
 .bock-four-fila > * {
   margin: 15px;
-  /* border: #2f5d62 solid 3px; */
+  border: #2f5d62 solid 3px;
   padding: 10px;
   border-radius: 5px;
   background-color: #25262a;
@@ -277,10 +274,9 @@ h2 {
   position: relative;
   display: block;
   background: #101111;
-  /* background: #364547; */
-  /* box-shadow: 5px 5px 15px 5px #364547; */
   box-shadow: 5px 5px 15px 5px #2f5d62;
 }
+/* footer */
 
 .instagram {
   color: #d53464;
@@ -298,24 +294,26 @@ h2 {
   color: #062636;
 }
 .body-footer {
+  display: flex;
+  align-items: center;
   background-color: #25262a;
+  height: 30rem;
+  /* border: solid 3px #5ed2f3; */
 }
 .body-footer > * {
-  /* border: #7952b3 solid 3px; */
-  margin: 10px;
-  text-align: center;
+  margin: 15px;
   padding: 10px;
 }
 .fondo-icono {
-  position: relative;
-  margin: 20px;
-  padding: 10px;
-  top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #1877f2;
   background: #fff;
   font-size: 30px;
   border-radius: 50%;
-  width: 50%;
+  width: 60px;
+  height: 60px;
 }
 /* FORMULARIO =================================== */
 
