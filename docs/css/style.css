@@ -4,8 +4,14 @@ body {
   font-family: "Red Hat Mono", monospace;
   overflow: initial;
   overflow-x: scroll;
+  font-size: 2rem;
 }
-
+.name {
+  position: relative;
+  left: 8rem;
+  font-size: 2rem;
+  color: #ffe268;
+}
 a {
   list-style: none;
   text-decoration: none;
@@ -18,16 +24,19 @@ h2 {
   width: 100%;
   text-align: center;
 }
-
+html {
+  font-size: 62.5%;
+}
 .div-lista ul {
   width: 60%;
 }
 .div-lista li {
-  margin-left: 20px;
+  margin-left: 2rem;
 }
 
 .div-lista a {
   color: #f3f4ee;
+  font-size: 1.5rem;
 }
 .div-lista a.active {
   color: #ffe268;
@@ -39,14 +48,16 @@ h2 {
 .boton {
   position: fixed;
   z-index: 1;
-  top: 50rem;
-  left: 115rem;
+  top: 60rem;
+  left: 170rem;
+  padding: 1rem;
+  width: 4rem;
 
   background-color: #ffe268;
 }
 
 .boton a {
-  color: #f3f4ee;
+  color: #101111;
 }
 .redesSociales {
   display: flex;
@@ -71,20 +82,24 @@ h2 {
 
 .block-one-text {
   position: relative;
+  top: 1rem;
+  font-size: 1.5rem;
+  /* border: 1px solid red; */
 }
-.block-one-deverlope {
-  width: 100%;
-}
+
 .block-one-hijo {
-  margin: 1rem;
-  padding: 20px;
+  margin: 2rem;
+  padding: 2rem;
   height: 25%;
   margin-top: 10rem;
 }
-
+.banner__link {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
 .block-one-hijo > * {
-  margin: 2rem;
   box-sizing: border-box;
+  /* font-size: 2rem; */
 }
 .block-one-image {
   width: 100%;
@@ -94,27 +109,34 @@ h2 {
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  /* padding: 10px; */
   box-shadow: 0 0 10px 4px #2f5d62;
 }
+.block-one-text-p {
+  font-size: 1.5rem;
+  /* border: 2px solid red; */
+}
+
 .block-one-hijo a {
   background-color: #25262a;
   box-shadow: 5px 5px 15px 5px #2f5d62;
   color: #ffe268;
-  /* color: #2f5d62; */
   border: solid 2px transparent;
 }
 
 .block-one-hijo a:hover {
   border: solid 2px #ccc;
   color: #ccc;
-  /* color: #ffe268; */
   background: #101111;
 }
+
 .block-one-chat-p {
-  font-size: 20px;
   color: #ffe268;
   padding: 10px;
+}
+.block-one-chat-p a {
+  color: #ffe268;
+  padding: 10px;
+  font-size: 1.5rem;
 }
 
 .block-one-icon {
@@ -124,7 +146,7 @@ h2 {
 }
 
 .block-one-icon span {
-  font-size: 3rem;
+  font-size: 5rem;
 }
 
 .block-one-icon .iconos {
@@ -134,10 +156,10 @@ h2 {
 /* SECTION cuadros  DE BLOCK TWO */
 .block-two-top {
   position: relative;
+  top: 20rem;
 }
 .block-two-boxs {
   position: relative;
-  top: 5rem;
   box-sizing: border-box;
 }
 .block-two-boxs > * {
@@ -152,14 +174,12 @@ h2 {
 }
 
 .block-two-name {
-  text-align: center;
-  padding: 20px;
+  padding: 2rem;
 }
 .block-two-box span {
   position: relative;
   color: #2f5d62;
   margin-left: 90%;
-  font-size: 30px;
   top: -30px;
 }
 
@@ -171,7 +191,6 @@ h2 {
   margin-top: 30px;
   padding: 20px;
   color: #ccc;
-
   border-radius: 5px;
   background-color: #25262a;
   -webkit-box-shadow: 5px 5px 15px 5px #ffe268;
@@ -181,7 +200,7 @@ h2 {
 
 .block-theer-grafico > * {
   position: relative;
-  top: 10rem;
+  top: 8rem;
   margin: 6px;
   padding: 20px;
   /* border: #07cf28 solid 4px; */
@@ -229,6 +248,7 @@ h2 {
   color: #ccc;
   width: 50%;
   margin: auto;
+  /* border: 3px solid red; */
 }
 .git {
   background-color: #eb4d28;
@@ -260,7 +280,6 @@ h2 {
   padding: 10px;
   border-radius: 5px;
   background-color: #25262a;
-  /* background: #25262a; */
   box-shadow: 5px 5px 15px 5px #2f5d62;
 }
 .bock-four-fila a {
@@ -298,7 +317,6 @@ h2 {
   align-items: center;
   background-color: #25262a;
   height: 30rem;
-  /* border: solid 3px #5ed2f3; */
 }
 .body-footer > * {
   margin: 15px;
@@ -315,22 +333,8 @@ h2 {
   width: 60px;
   height: 60px;
 }
-/* FORMULARIO =================================== */
-
-.paleta-de-colore {
-  background: #364547;
-  color: #364547;
-  background: #2f5d62;
-  color: #2f5d62;
-  background: #ffe268;
-  color: #ffe268;
-  background: #ffb037;
-  color: #ffb037;
-  /* color pagina seguir */
-  background: #2d2e32;
-  color: #2d2e32;
-  background: #25262a;
-  color: #25262a;
-  background: #f3f4ee;
-  color: #f3f4ee;
+.section-work {
+  width: 100%;
+  /* border: 2px solid rosybrown; */
 }
+/*  */
