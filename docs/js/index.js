@@ -19,6 +19,8 @@ const CambioColor = (event) => {
   const link = event.target;
   console.log(link);
   link.classList.remove("active");
+
+  lokjikio;
   link.classList.add("active");
 };
 
