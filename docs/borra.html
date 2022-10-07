@@ -7,13 +7,7 @@
     <link rel="icon" href="img/icon.png" type="img" />
     <link rel="stylesheet" href="css/css/bootstrap.min.css" />
     <link rel="stylesheet" href="style.css" />
-    <!-- fuente -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=BIZ+UDGothic:wght@700&display=swap"
-      rel="stylesheet"
-    />
+
     <!-- fuente2 log -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,28 +15,67 @@
       href="https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap"
       rel="stylesheet"
     />
-    <!-- fuente logo3 -->
+
+    <!-- estilo letra general-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap"
       rel="stylesheet"
     />
+
     <title>Borrador Portafolio</title>
   </head>
   <body>
-    <header class="container border">
-      <div class="header-logo">
-        <h1>TOR</h1>
-      </div>
-      <div id="header-list" class="header-list">
-        <ul>
-          <li>Inicio</li>
-          <li>Trabajo</li>
-          <li>Sobre mi</li>
-        </ul>
-      </div>
+    <header class="container bock-header border" id="header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <div class="header-logo">
+            <h2>TAA</h2>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse header-list" id="navbarScroll">
+            <ul class="navbar-nav navbar-nav-scroll">
+              <li class="nav-item">Inicio</li>
+
+              <li class="nav-item">Mi Trabajo</li>
+              <li class="nav-item">Sobre Mi</li>
+            </ul>
+            <br />
+          </div>
+        </div>
+      </nav>
     </header>
-    <div class="container border"></div>
+    <div class="container colorContainer">
+      <h1>Torcoroma Arias Ascanio</h1>
+    </div>
+    <section>
+      <div class="container container-text border">
+        <div class="inicioA-text">
+          <h2>Soy desarrolladora web autodidacta</h2>
+          <h3>
+            Construyo y codifico interfaces digitales como páginas web,
+            aplicaciones. mis herramientas son:
+          </h3>
+          <h4>HTML5, CSS3, Bootstrap, JavaScript, React.js</h4>
+        </div>
+        <div class="inicioB-foto">
+          <img src="img/foto.jpg" alt="foto" />
+          <span>Torcoroma Arias Ascanio</span>
+        </div>
+      </div>
+    </section>
+    <script src="js/js/bootstrap.min.js"></script>
   </body>
 </html>
