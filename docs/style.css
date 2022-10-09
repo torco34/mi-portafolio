@@ -2,34 +2,22 @@ body {
   background-color: #ffffff;
   color: #3a4750;
   font-size: 1.3rem;
-  /* font-family: "Red Hat Mono", monospace; */
-  /* font-family: "Roboto", sans-serif; */
+  /* overflow: hidden; */
+  box-sizing: border-box;
   font-family: "Abyssinica SIL", serif;
 }
 html {
   font-size: 62.5%;
 }
-.cuartela {
-  background-color: #66bfbf;
-  background-color: #808b97;
-  color: #808b97;
-}
-/* container colores */
-.colorContainer {
-  width: 100%;
-  height: 10vh;
-  background-color: #66bfbf;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #ffffff;
-  font-size: 3rem;
-  font-family: "Passions Conflict", cursive;
-}
-/* section the header */
 
+/* section the header */
+.header {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+}
 .header-logo {
   color: #66bfbf;
+  font-weight: bold;
   font-family: "Passions Conflict", cursive;
 }
 
@@ -45,30 +33,151 @@ html {
 .header-list ul li {
   list-style: none;
   text-decoration: none;
-  margin-right: 30px;
-  /* border: 1px solid #3a4750; */
+  margin-right: 3rem;
+  border-bottom: solid;
+  border-color: transparent;
+  transition: all 0.5s ease;
+}
+
+.header-list ul li.active {
+  border-bottom: solid;
+  border-color: #66bfbf;
+  opacity: 1;
 }
 
 .header-list ul li:hover {
-  color: #66bfbf;
+  border-bottom: solid;
+  border-color: #66bfbf;
 }
+/* section de container verde con nombre */
+
+.colorContainerName {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  /* background-color: #66bfbf; */
+}
+.colorContainerName h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Passions Conflict", cursive;
+  color: #66bfbf;
+  /* color: #ffffff; */
+}
+/* section donde la información */
+
 .container-text {
   display: grid;
-  grid-template: repeat(1, 400px) / repeat(2, 50%);
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1rem;
 }
-.container-text div {
-  border: solid 1px red;
+
+.containerA-text {
+  display: grid;
+  grid-template: repeat(2, 1fr);
 }
-.inicioB-foto {
-  color: #66bfbf;
-  font-size: 30px;
-  font-family: "Passions Conflict", cursive;
+.text {
+  justify-self: center;
+  align-self: center;
+  padding: 2rem;
 }
-.inicioB-foto img {
-  display: block;
+
+.text h2 {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.text p {
+  display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.text h5 {
+  font-weight: bold;
+}
+
+/* section donde van los botones */
+
+.containerA-botones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerA-botones a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  margin: 2rem;
+  background-color: #66bfbf;
+  border: transparent;
+}
+
+/* section donde van la foto */
+.containerB-foto {
+  display: grid;
+  grid-template: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.containerDiv-foto {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  font-weight: bold;
+}
+
+.containerDiv-foto img {
+  border-radius: 50%;
   width: 50%;
-  border: solid 1px rgb(61, 55, 55);
+  padding: 1rem;
+}
+.containerDiv-foto h4 {
+  font-weight: bold;
+}
+
+.index-trabajo {
+  display: none;
+}
+/* otro bloque */
+.continerMiTrabajo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 1rem;
+}
+
+.boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boton a {
+  width: 10rem;
+  margin: 2rem;
+  background-color: #66bfbf;
+  border: transparent;
+}
+.paletaDeColores {
+  background-color: #66bfbf;
+  background-color: #808b97;
+  color: #808b97;
+  color: #66bfbf;
+}
+.contenedor {
+  position: relative;
+  background-color: aquamarine;
+}
+.index.active {
+  opacity: 1;
+}
+.index {
+  position: absolute;
+  background-color: #ffffff;
+  opacity: 0;
+  transition: all 0.5s ease;
 }

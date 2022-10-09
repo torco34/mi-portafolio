@@ -27,11 +27,11 @@
     <title>Borrador Portafolio</title>
   </head>
   <body>
-    <header class="container bock-header border" id="header">
+    <header class="container header border" id="header">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <div class="header-logo">
-            <h2>TAA</h2>
+            <h1>T.A.A</h1>
           </div>
           <button
             class="navbar-toggler"
@@ -46,36 +46,246 @@
           </button>
 
           <div class="collapse navbar-collapse header-list" id="navbarScroll">
-            <ul class="navbar-nav navbar-nav-scroll">
-              <li class="nav-item">Inicio</li>
-
-              <li class="nav-item">Mi Trabajo</li>
-              <li class="nav-item">Sobre Mi</li>
+            <ul id="ul" class="navbar-nav navbar-nav-scroll">
+              <li id="inicio" class="nav-item active">Inicio</li>
+              <li id="servicio" class="nav-item">Servicios</li>
+              <li id="trabajo" class="nav-item">Mi Trabajo</li>
+              <li id="sobre" class="nav-item">Sobre Mi</li>
             </ul>
             <br />
           </div>
         </div>
       </nav>
     </header>
-    <div class="container colorContainer">
-      <h1>Torcoroma Arias Ascanio</h1>
-    </div>
+    <!-- container donde va el nombre  -->
     <section>
-      <div class="container container-text border">
-        <div class="inicioA-text">
-          <h2>Soy desarrolladora web autodidacta</h2>
-          <h3>
-            Construyo y codifico interfaces digitales como páginas web,
-            aplicaciones. mis herramientas son:
-          </h3>
-          <h4>HTML5, CSS3, Bootstrap, JavaScript, React.js</h4>
-        </div>
-        <div class="inicioB-foto">
-          <img src="img/foto.jpg" alt="foto" />
-          <span>Torcoroma Arias Ascanio</span>
+      <div class="container colorContainerName">
+        <div class="colorContainerName">
+          <h1>Torcoroma Arias Ascanio</h1>
         </div>
       </div>
     </section>
+    <div class="container contenedor">
+      <!-- container donde va la información de quien soy -->
+      <section class="index active">
+        <div class="container container-text">
+          <div class="containerA-text">
+            <div class="text">
+              <h2>Soy desarrolladora web autodidacta.</h2>
+              <p>
+                Construyo y codifico interfaces digitales, páginas web y
+                aplicaciones. Mis herramientas son
+              </p>
+
+              <h5>HTML5, CSS3, JavaScript, Bootstrap, Git, GitHub, React.js</h5>
+              <h5 class="">Actualmente estudio ingles</h5>
+            </div>
+            <div class="containerA-botones">
+              <a href="" class="btn btn-dark">cv</a>
+              <a href="" class="btn btn-dark">spanish</a>
+            </div>
+          </div>
+          <div class="containerB-foto">
+            <div class="containerDiv-foto">
+              <img src="img/foto.jpg" alt="foto" />
+              <h4>Torcoroma Arias Ascanio</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="index">
+        <div class="container continerMiTrabajo">
+          <div class="card">
+            <img src="img/refugio.png" class="" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Refugio Amor Y Paz</h5>
+              <p class="card-text">
+                Esta página es real, se ejecuta en el servidor. tecnología en la
+                que colabore SendGrid, Node.js, Express, JavaScrip.js
+              </p>
+              <p>Fecha ejecución 02/04/2022</p>
+              <div class="boton">
+                <a
+                  href="https://github.com/torco34/refugio-amor-paz/tree/master/docs"
+                  class="btn btn-dark"
+                  >GitHub</a
+                >
+                <a
+                  href="https://torco34.github.io/refugio-amor-paz/"
+                  class="btn btn-dark"
+                  >Ver</a
+                >
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div class="card">
+            <img src="img/miTiend.png" class="" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">OnlineShop</h5>
+              <p class="card-text">
+                Este es un proyecto de práctica, las tecnologías que utilicé
+                React.js, Bootstrap, API PayPal Gogle map
+              </p>
+              <p>Fecha ejecución 02/04/2022</p>
+              <div class="boton">
+                <a
+                  href="https://torco34.github.io/my-tienda/"
+                  class="btn btn-dark"
+                  >Ver</a
+                >
+                <a
+                  href="https://github.com/torco34/my-tienda"
+                  class="btn btn-dark"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div class="card">
+            <img src="img/tablaTarea.png" class="" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Organizador De Tareas</h5>
+              <p class="card-text"></p>
+              <div class="boton">
+                <a
+                  href="https://torco34.github.io/todos-tarea/"
+                  class="btn btn-dark"
+                  >Ver</a
+                >
+                <a href="#" class="btn btn-dark">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div class="card">
+            <img src="img/rick.png" class="" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">API de rickmor</h5>
+              <p class="card-text"></p>
+              <div class="boton">
+                <a href="#" class="btn btn-dark">GitHub</a>
+                <a href="#" class="btn btn-dark">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div class="card">
+            <img src="img/sue.png" class="" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Refugio Amor Y Paz</h5>
+              <p class="card-text"></p>
+              <div class="boton">
+                <a href="#" class="btn btn-dark">GitHub</a>
+                <a href="#" class="btn btn-dark">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div class="card">
+            <img src="img/classs.png" class="" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Refugio Amor Y Paz</h5>
+              <p class="card-text"></p>
+              <div class="boton">
+                <a href="#" class="btn btn-dark">GitHub</a>
+                <a href="#" class="btn btn-dark">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <!--  -->
+          <div class="card">
+            <img src="img/mifoto.png" class="" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Refugio Amor Y Paz</h5>
+              <p class="card-text"></p>
+              <div class="boton">
+                <a href="#" class="btn btn-dark">GitHub</a>
+                <a href="#" class="btn btn-dark">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div class="card">
+            <img src="img/fo.png" class="" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Refugio Amor Y Paz</h5>
+              <p class="card-text"></p>
+              <div class="boton">
+                <a href="#" class="btn btn-dark">GitHub</a>
+                <a href="#" class="btn btn-dark">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+
+          <!--  -->
+          <div class="card">
+            <img src="img/refugio.png" class="" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Refugio Amor Y Paz</h5>
+              <p class="card-text"></p>
+              <div class="boton">
+                <a href="#" class="btn btn-dark">GitHub</a>
+                <a href="#" class="btn btn-dark">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div class="card">
+            <img src="img/refugio.png" class="" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Refugio Amor Y Paz</h5>
+              <p class="card-text"></p>
+              <div class="boton">
+                <a href="#" class="btn btn-dark">GitHub</a>
+                <a href="#" class="btn btn-dark">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div class="card">
+            <img src="img/refugio.png" class="" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Refugio Amor Y Paz</h5>
+              <p class="card-text"></p>
+              <div class="boton">
+                <a href="#" class="btn btn-dark">GitHub</a>
+                <a href="#" class="btn btn-dark">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/pizza.png" class="" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Refugio Amor Y Paz</h5>
+              <p class="card-text"></p>
+              <div class="boton">
+                <a href="#" class="btn btn-dark">GitHub</a>
+                <a href="#" class="btn btn-dark">GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- tercer bloque -->
+      <section class="index">
+        <div class="container">
+          <h1>quien soy</h1>
+        </div>
+      </section>
+      <!-- cuarto bloque -->
+      <section class="index">
+        <div class="container">
+          <h1>tecnologia</h1>
+        </div>
+      </section>
+    </div>
+
+    <script src="js/bor.js"></script>
     <script src="js/js/bootstrap.min.js"></script>
   </body>
 </html>
