@@ -1,6 +1,6 @@
 const li = document.querySelectorAll(".nav-item");
 const bloque = document.querySelectorAll(".index");
-console.log(li);
+console.log(bloque);
 
 li.forEach((cadaLi, i) => {
   li[i].addEventListener("click", () => {
