@@ -151,6 +151,15 @@ html {
   gap: 1rem;
 }
 
+.continerMiTrabajo h5 {
+  /* color: #66bfbf; */
+  font-weight: bold;
+}
+.continerMiTrabajo span {
+  color: #66bfbf;
+  font-weight: bold;
+}
+
 .boton {
   display: flex;
   justify-content: center;
@@ -180,4 +189,18 @@ html {
   background-color: #ffffff;
   opacity: 0;
   transition: all 0.5s ease;
+}
+/* tapa de quien soy */
+.container-Soy {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+}
+
+.containerProyectos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  height: 50vh;
+  z-index: 5;
+  position: relative;
+  top: 100vh;
 }
