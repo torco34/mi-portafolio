@@ -1,7 +1,7 @@
 body {
   background-color: #ffffff;
   color: #3a4750;
-  font-size: 1.3rem;
+  font-size: 2rem;
   /* overflow: hidden; */
   box-sizing: border-box;
   font-family: "Abyssinica SIL", serif;
@@ -181,16 +181,17 @@ html {
 }
 .contenedor {
   position: relative;
-  background-color: aquamarine;
+  /* header: 150vh; */
+  /* background-color: aquamarine; */
 }
 .index.active {
   opacity: 1;
 }
 .index {
   position: absolute;
-  background-color: red;
+  /* background-color: red; */
   opacity: 0;
-  height: 50vh;
+  /* height: 50vh; */
   transition: all 0.5s ease;
 }
 /* tapa de quien soy */
