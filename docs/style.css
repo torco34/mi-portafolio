@@ -1,7 +1,7 @@
 body {
   background-color: #ffffff;
   color: #3a4750;
-  font-size: 2rem;
+  font-size: 1.5rem;
   /* overflow: hidden; */
   box-sizing: border-box;
   font-family: "Abyssinica SIL", serif;
@@ -53,8 +53,8 @@ html {
 
 .colorContainerName {
   display: grid;
+
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  /* background-color: #66bfbf; */
 }
 .colorContainerName h1 {
   display: flex;
