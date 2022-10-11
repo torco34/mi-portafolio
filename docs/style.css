@@ -144,67 +144,110 @@ html {
 .index-trabajo {
   display: none;
 }
-/* otro bloque */
-.continerMiTrabajo {
+/* container donde van los proyecto */
+.continerProyectos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1rem;
-  background-color: aquamarine;
-  height: 50vh;
+  /* background-color: aquamarine; */
 }
 
-.continerMiTrabajo h5 {
-  /* color: #66bfbf; */
+.continerProyectos h5 {
   font-weight: bold;
 }
-.continerMiTrabajo span {
+.continerProyectos span {
   color: #66bfbf;
   font-weight: bold;
 }
 
-.boton {
+.continerProyectos .boton {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.boton a {
+.continerProyectos .boton a {
   width: 10rem;
   margin: 2rem;
   background-color: #66bfbf;
   border: transparent;
 }
-.paletaDeColores {
-  background-color: #66bfbf;
-  background-color: #808b97;
-  color: #808b97;
-  color: #66bfbf;
-}
+
+/* section de classes manejadas con javascript */
+
 .contenedor {
   position: relative;
-  /* header: 150vh; */
-  /* background-color: aquamarine; */
+  /* el va sosteniendo las pestaña o tab */
 }
 .index.active {
   opacity: 1;
 }
 .index {
   position: absolute;
-  /* background-color: red; */
   opacity: 0;
-  /* height: 50vh; */
   transition: all 0.5s ease;
 }
-/* tapa de quien soy */
-.container-Soy {
+/* section de las tecnologías */
+.containerTecnologias {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+  
+  
+}
+.tecnolog .card{
+  background-color: #f5f6f7;
+  padding: 1rem;
+}
+.tecnolog h3, h5{
+  /* color: #66bfbf; */
+  font-weight: bold;
+}
+ .containerTecnologias .iconos {
+  display: flex;
+  width: 50%;
+  object-fit: cover; 
+  overflow: hidden;
+  border: 2px solid #66bfbf;
+  place-self: center stretch;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 21vh;
+  background-color: #ffffff;
+  
+}
+.iconos img{
+
+  max-width: 5rem;
 }
 
-.containerProyectos {
+.tapIcon h2 {
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.tapIcon {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-  height: 50vh;
-  z-index: 5;
-  position: relative;
-  top: 100vh;
+  justify-items: center;
+  align-content: center;
+  padding: 1rem;
+  background-color: #f5f6f7;
+  /* border: 2px solid #66bfbf; *
+
+  border-radius: 5px;
+} 
+.paletaDeColores {
+  background-color: #66bfbf;
+  background-color: #808b97;
+  background-color: #f5f6f7;
+  background-color: #ffffff;
+  color: #808b97;
+  color: #66bfbf;
+  font-weight: bold;
+}
+.condi {
+  justify-self: end;
+  align-self: flex-end;
+  place-self: unset;
 }
