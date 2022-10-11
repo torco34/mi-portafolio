@@ -6,6 +6,7 @@ body {
   box-sizing: border-box;
   font-family: "Abyssinica SIL", serif;
 }
+
 html {
   font-size: 62.5%;
 }
@@ -15,6 +16,7 @@ html {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
 }
+
 .header-logo {
   color: #66bfbf;
   font-weight: bold;
@@ -26,10 +28,12 @@ html {
   grid-template: repeat(2, 1fr);
   justify-content: flex-end;
 }
+
 .header-list ul {
   display: flex;
   align-items: center;
 }
+
 .header-list ul li {
   list-style: none;
   text-decoration: none;
@@ -49,20 +53,21 @@ html {
   border-bottom: solid;
   border-color: #66bfbf;
 }
+
 /* section de container verde con nombre */
 
 .colorContainerName {
   display: grid;
-
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
 }
+
 .colorContainerName h1 {
   display: flex;
   justify-content: center;
   font-family: "Passions Conflict", cursive;
   color: #66bfbf;
-  /* color: #ffffff; */
 }
+
 /* section donde la información */
 
 .container-text {
@@ -75,6 +80,7 @@ html {
   display: grid;
   grid-template: repeat(2, 1fr);
 }
+
 .text {
   justify-self: center;
   align-self: center;
@@ -83,7 +89,6 @@ html {
 
 .text h2 {
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   font-size: 1.6rem;
   text-transform: uppercase;
@@ -137,6 +142,7 @@ html {
   width: 50%;
   padding: 1rem;
 }
+
 .containerDiv-foto h4 {
   font-weight: bold;
 }
@@ -144,12 +150,12 @@ html {
 .index-trabajo {
   display: none;
 }
+
 /* container donde van los proyecto */
 .continerProyectos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1rem;
-  /* background-color: aquamarine; */
 }
 
 .continerProyectos h5 {
@@ -173,10 +179,10 @@ html {
 }
 
 /* section de classes manejadas con javascript */
+/* el va sosteniendo las pestaña o tab */
 
 .contenedor {
   position: relative;
-  /* el va sosteniendo las pestaña o tab */
 }
 .index.active {
   opacity: 1;
@@ -192,21 +198,20 @@ html {
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1rem;
   padding: 2rem;
-  
-  
 }
-.tecnolog .card{
+.tecnolog .card {
   background-color: #f5f6f7;
   padding: 1rem;
 }
-.tecnolog h3, h5{
+.tecnolog h3,
+h5 {
   /* color: #66bfbf; */
   font-weight: bold;
 }
- .containerTecnologias .iconos {
+.containerTecnologias .iconos {
   display: flex;
   width: 50%;
-  object-fit: cover; 
+  object-fit: cover;
   overflow: hidden;
   border: 2px solid #66bfbf;
   place-self: center stretch;
@@ -215,10 +220,8 @@ html {
   border-radius: 50%;
   height: 21vh;
   background-color: #ffffff;
-  
 }
-.iconos img{
-
+.iconos img {
   max-width: 5rem;
 }
 
@@ -233,21 +236,7 @@ html {
   align-content: center;
   padding: 1rem;
   background-color: #f5f6f7;
-  /* border: 2px solid #66bfbf; *
+  /* /* border: 2px solid #66bfbf; * */
 
   border-radius: 5px;
-} 
-.paletaDeColores {
-  background-color: #66bfbf;
-  background-color: #808b97;
-  background-color: #f5f6f7;
-  background-color: #ffffff;
-  color: #808b97;
-  color: #66bfbf;
-  font-weight: bold;
-}
-.condi {
-  justify-self: end;
-  align-self: flex-end;
-  place-self: unset;
 }
