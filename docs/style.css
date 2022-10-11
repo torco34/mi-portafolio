@@ -2,7 +2,6 @@ body {
   background-color: #ffffff;
   color: #3a4750;
   font-size: 1.5rem;
-  /* overflow: hidden; */
   box-sizing: border-box;
   font-family: "Abyssinica SIL", serif;
 }
@@ -14,19 +13,26 @@ html {
 /* section the header */
 .header {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  position: fixed;
+  min-width: 100%;
+  z-index: 1;
+  border: 1px solid red;
 }
 
 .header-logo {
   color: #66bfbf;
+
   font-weight: bold;
+  justify-self: center;
   font-family: "Passions Conflict", cursive;
 }
 
 .header-list {
   display: grid;
   grid-template: repeat(2, 1fr);
-  justify-content: flex-end;
+  justify-content: center;
+  /* gap: 1rem; */
 }
 
 .header-list ul {
@@ -40,7 +46,7 @@ html {
   margin-right: 3rem;
   border-bottom: solid;
   border-color: transparent;
-  transition: all 0.5s ease;
+  transition: all 0.7s ease;
 }
 
 .header-list ul li.active {
@@ -60,12 +66,17 @@ html {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
 }
+.container-name {
+  position: relative;
+  top: 5rem;
+}
 
 .colorContainerName h1 {
   display: flex;
   justify-content: center;
   font-family: "Passions Conflict", cursive;
   color: #66bfbf;
+  font-size: 4rem;
 }
 
 /* section donde la información */
@@ -183,21 +194,23 @@ html {
 
 .contenedor {
   position: relative;
+  top: 6rem;
 }
+
 .index.active {
-  opacity: 1;
+  transition: all 0.8s ease;
+  display: block;
 }
 .index {
   position: absolute;
-  opacity: 0;
-  transition: all 0.5s ease;
+  display: none;
+  /* transition: all 0.5s ease; */
 }
 /* section de las tecnologías */
 .containerTecnologias {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1rem;
-  padding: 2rem;
 }
 .tecnolog .card {
   background-color: #f5f6f7;
@@ -210,19 +223,20 @@ h5 {
 }
 .containerTecnologias .iconos {
   display: flex;
-  width: 50%;
+  /* width: 30%; */
   object-fit: cover;
+  padding: 1.3rem;
   overflow: hidden;
   border: 2px solid #66bfbf;
   place-self: center stretch;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  height: 21vh;
+  /* height: 5vh; */
   background-color: #ffffff;
 }
 .iconos img {
-  max-width: 5rem;
+  width: 6rem;
 }
 
 .tapIcon h2 {
