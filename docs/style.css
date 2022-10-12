@@ -195,6 +195,7 @@ html {
 .contenedor {
   position: relative;
   top: 6rem;
+  background-color: antiquewhite;
 }
 
 .index.active {
@@ -218,7 +219,7 @@ html {
 }
 .tecnolog h3,
 h5 {
-  /* color: #66bfbf; */
+  color: #66bfbf;
   font-weight: bold;
 }
 .containerTecnologias .iconos {
@@ -253,4 +254,15 @@ h5 {
   /* /* border: 2px solid #66bfbf; * */
 
   border-radius: 5px;
+}
+.containerSobreMi {
+  /* display: flex; */
+  /* grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr)); */
+}
+.contenedor_foder {
+  position: relative;
+  top: 8rem;
+  background-color: #3a4750;
+  height: 30vh;
+  max-width: 100%;
 }
