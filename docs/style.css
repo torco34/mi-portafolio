@@ -263,14 +263,10 @@ h5 {
   /* display: flex; */
   /* grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr)); */
 }
-.containerFoderBody {
-  /* position: relative;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr)); */
-  /* z-index: 0; */
-}
 
 .contenedorFoder {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
   position: absolute;
   margin-top: 5rem;
   min-width: 107%;
