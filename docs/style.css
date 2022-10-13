@@ -260,8 +260,8 @@ h5 {
   border-radius: 5px;
 }
 .containerSobreMi {
-  /* display: flex; */
-  /* grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr)); */
+  display: flex;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
 }
 
 .contenedorFoder {
