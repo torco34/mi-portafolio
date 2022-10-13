@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../../../grid-mi-codigo"
+	},
+	{
+		"path": ".."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "mi-portafolio"
+  }
+}
