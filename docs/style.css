@@ -270,18 +270,27 @@ h5 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(40re, 1fr));
   width: 100%;
-  height: 30vh;
+  height: 50vh;
   background-color: #3a4750;
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 4rem;
+  top: 20rem;
 }
 .contenedorFoder span {
+  /* color: #f5f6f7; */
+  color: #66bfbf;
+}
+
+.contenedorFoder h5 {
+  color: #f5f6f7;
+}
+.fooderIcono a {
+  text-decoration: none;
   color: #f5f6f7;
 }
 .footerIconos {
-  border: 2px solid #66bfbf;
+  /* border: 2px solid #66bfbf; */
   display: grid;
   justify-items: center;
   align-content: center;
