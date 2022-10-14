@@ -257,7 +257,6 @@ h5 {
   align-content: center;
   padding: 1rem;
   /* background-color: #f5f6f7; */
-  /* /* border: 2px solid #66bfbf; * */
 
   border-radius: 5px;
 }
@@ -265,34 +264,41 @@ h5 {
   display: flex;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
 }
-
+/* container sobre fooder */
 .contenedorFoder {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(40re, 1fr));
+  gap: 1rem;
   width: 100%;
   height: 50vh;
   background-color: #3a4750;
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 20rem;
+  top: 10rem;
 }
-.contenedorFoder span {
-  /* color: #f5f6f7; */
-  color: #66bfbf;
+
+.link span {
+  background-color: #ffffff;
+  color: #0a66c2;
+  border-radius: 4px;
 }
 
 .contenedorFoder h5 {
-  color: #f5f6f7;
+  color: #e2edf8;
+}
+.fooderIcono span {
+  text-decoration: none;
+  margin: 1rem;
+  font-size: 3rem;
 }
 .fooderIcono a {
   text-decoration: none;
   color: #f5f6f7;
 }
 .footerIconos {
-  /* border: 2px solid #66bfbf; */
   display: grid;
   justify-items: center;
   align-content: center;
-  padding: 1rem;
+  gap: 2rem;
 }
