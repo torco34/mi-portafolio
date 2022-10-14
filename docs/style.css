@@ -3,7 +3,7 @@ body {
   /* background-color: #f5f6f7; */
   /* background-color: #58626b; */
   color: #3a4750;
-  font-size: 2rem;
+  font-size: 1rem;
   box-sizing: border-box;
   font-family: "Abyssinica SIL", serif;
   min-height: 100vh;
@@ -199,7 +199,7 @@ html {
   position: relative;
   top: 6rem;
 
-  background-color: antiquewhite;
+  background-color: rgb(222, 144, 43);
 }
 
 .index.active {
@@ -277,8 +277,6 @@ h5 {
   position: absolute;
   margin-top: 3rem;
   right: 0px;
-  /* left: 10px; */
-  /* top: 0rem; */
 }
 
 .link span {
