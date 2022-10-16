@@ -1,7 +1,5 @@
 body {
   background-color: #ffffff;
-  /* background-color: #f5f6f7; */
-  /* background-color: #58626b; */
   color: #3a4750;
   font-size: 2rem;
   box-sizing: border-box;
@@ -25,9 +23,9 @@ html {
 
 .header-logo {
   color: #66bfbf;
-
   font-weight: bold;
   justify-self: center;
+  font-size: 3rem;
   font-family: "Passions Conflict", cursive;
 }
 
@@ -127,13 +125,11 @@ html {
 }
 
 .containerA-botones a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 10rem;
   margin: 2rem;
   background-color: #66bfbf;
   border: transparent;
+  font-size: 1.5rem;
 }
 
 /* section donde van la foto */
@@ -173,10 +169,12 @@ html {
 
 .continerProyectos h5 {
   font-weight: bold;
+  font-size: 1.5rem;
 }
 .continerProyectos span {
   color: #66bfbf;
   font-weight: bold;
+  /* font-size: 2rem; */
 }
 
 .continerProyectos .boton {
@@ -184,11 +182,12 @@ html {
   justify-content: center;
   align-items: center;
 }
-.continerProyectos .boton a {
+.continerProyectos a {
   width: 10rem;
   margin: 2rem;
   background-color: #66bfbf;
   border: transparent;
+  font-size: 1.5rem;
 }
 
 /* section de classes manejadas con javascript */
@@ -228,7 +227,6 @@ h5 {
 }
 .containerTecnologias .iconos {
   display: flex;
-  /* width: 30%; */
   object-fit: cover;
   padding: 1.3rem;
   overflow: hidden;
@@ -237,7 +235,6 @@ h5 {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  /* height: 5vh; */
   background-color: #ffffff;
 }
 .iconos img {
@@ -256,23 +253,32 @@ h5 {
   padding: 1rem;
   border-radius: 5px;
 }
+/* sobre mi */
 .containerSobreMi {
   display: block;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
 }
+.containerSobreMi h3 {
+  color: #66bfbf;
+  font-weight: bold;
+}
+.containerSobreMi p {
+  font-weight: bold;
+}
+.containerSobreMi span {
+  color: #66bfbf;
+  font-weight: bold;
+}
 /* container sobre fooder */
 .contenedorFoder {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(40re, 1fr));
-  gap: 1rem;
-  min-width: 100%;
+  display: flex;
   height: 50vh;
-  background-color: #3a4750;
   justify-content: center;
   align-items: center;
   position: absolute;
-  margin-top: 3rem;
+  margin-top: 4rem;
   right: 0px;
+  left: 0;
 }
 
 .link span {
@@ -282,20 +288,21 @@ h5 {
 }
 
 .contenedorFoder h5 {
-  color: #e2edf8;
+  color: #66bfbf;
+  font-size: 2rem;
 }
 .fooderIcono span {
   text-decoration: none;
   margin: 1rem;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 .fooderIcono a {
   text-decoration: none;
-  color: #f5f6f7;
+  color: #293138;
 }
 .footerIconos {
   display: grid;
   justify-items: center;
   align-content: center;
-  gap: 2rem;
+  gap: 1rem;
 }
