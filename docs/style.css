@@ -18,14 +18,14 @@ html {
   position: fixed;
   min-width: 100%;
   z-index: 1;
-  border: 1px solid red;
+  background-color: #f5f6f7;
 }
 
-.header-logo {
+.header-logo h1 {
   color: #66bfbf;
   font-weight: bold;
   justify-self: center;
-  font-size: 3rem;
+  font-size: 5rem;
   font-family: "Passions Conflict", cursive;
 }
 
@@ -68,7 +68,7 @@ html {
 }
 .container-name {
   position: relative;
-  top: 5rem;
+  top: 8rem;
 }
 
 .colorContainerName h1 {
@@ -77,6 +77,7 @@ html {
   font-family: "Passions Conflict", cursive;
   color: #66bfbf;
   font-size: 4rem;
+  font-weight: bold;
 }
 
 /* section donde la información */
@@ -114,6 +115,7 @@ html {
 
 .text h5 {
   font-weight: bold;
+  font-size: 1.6rem;
 }
 
 /* section donde van los botones */
@@ -195,9 +197,7 @@ html {
 
 .contenedor {
   position: relative;
-  top: 6rem;
-
-  background-color: rgb(222, 144, 43);
+  top: 10rem;
 }
 
 .index.active {
@@ -209,6 +209,7 @@ html {
   display: none;
   transition: all 0.5s ease;
   padding: 1rem;
+  background-color: #f5f6f7;
 }
 
 /* section de las tecnologías */
@@ -218,7 +219,6 @@ html {
   gap: 1rem;
 }
 .tecnolog .card {
-  background-color: #f5f6f7;
   padding: 1rem;
 }
 .tecnolog h3,
@@ -288,7 +288,7 @@ h5 {
 }
 
 .contenedorFoder h5 {
-  color: #66bfbf;
+  color: #3a4750;
   font-size: 2rem;
 }
 .fooderIcono span {
@@ -298,7 +298,8 @@ h5 {
 }
 .fooderIcono a {
   text-decoration: none;
-  color: #293138;
+  /* color: #293138; */
+  /* color: #3a4750; */
 }
 .footerIconos {
   display: grid;
