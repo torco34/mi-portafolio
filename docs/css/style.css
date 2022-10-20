@@ -1,340 +1,309 @@
 body {
-  background-color: #2d2e32;
-  color: #f3f4ee;
-  font-family: "Red Hat Mono", monospace;
-  overflow: initial;
-  overflow-x: scroll;
+  background-color: #ffffff;
+  color: #3a4750;
   font-size: 2rem;
+  box-sizing: border-box;
+  font-family: "Abyssinica SIL", serif;
+  min-height: 100vh;
 }
-.name {
-  position: relative;
-  left: 8rem;
-  font-size: 2rem;
-  color: #ffe268;
-}
-a {
-  list-style: none;
-  text-decoration: none;
-}
-h2 {
-  color: #ffe268;
-}
-/* SECTION DE HEADER */
-.div-lista {
-  width: 100%;
-  text-align: center;
-}
+
 html {
   font-size: 62.5%;
 }
-.div-lista ul {
-  width: 60%;
-}
-.div-lista li {
-  margin-left: 2rem;
-}
 
-.div-lista a {
-  color: #f3f4ee;
-  font-size: 1.5rem;
-}
-.div-lista a.active {
-  color: #ffe268;
-}
-.div-lista a:hover {
-  color: #ffe268;
-}
-
-.boton {
+/* section the header */
+.header {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   position: fixed;
+  min-width: 100%;
   z-index: 1;
-  top: 60rem;
-  left: 170rem;
-  padding: 1rem;
-  width: 4rem;
-
-  background-color: #ffe268;
+  background-color: #f5f6f7;
 }
 
-.boton a {
-  color: #101111;
-}
-.redesSociales {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 25%;
-}
-.redesSociales span {
-  border-radius: 7px;
-  width: 100px;
-  height: 50px;
-  object-fit: cover;
-  color: #fff;
-  margin: 20px;
-}
-.bock-header {
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-}
-/* SECTION DE BLOCK-ONE */
-
-.block-one-text {
-  position: relative;
-  top: 1rem;
-  font-size: 1.5rem;
-  /* border: 1px solid red; */
-}
-
-.block-one-hijo {
-  margin: 2rem;
-  padding: 2rem;
-  height: 25%;
-  margin-top: 10rem;
-}
-.banner__link {
-  font-size: 1.5rem;
-  text-transform: uppercase;
-}
-.block-one-hijo > * {
-  box-sizing: border-box;
-  /* font-size: 2rem; */
-}
-.block-one-image {
-  width: 100%;
-  padding: 10px;
-}
-.block-one-image img {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  box-shadow: 0 0 10px 4px #2f5d62;
-}
-.block-one-text-p {
-  font-size: 1.5rem;
-  /* border: 2px solid red; */
-}
-
-.block-one-hijo a {
-  background-color: #25262a;
-  box-shadow: 5px 5px 15px 5px #2f5d62;
-  color: #ffe268;
-  border: solid 2px transparent;
-}
-
-.block-one-hijo a:hover {
-  border: solid 2px #ccc;
-  color: #ccc;
-  background: #101111;
-}
-
-.block-one-chat-p {
-  color: #ffe268;
-  padding: 10px;
-}
-.block-one-chat-p a {
-  color: #ffe268;
-  padding: 10px;
-  font-size: 1.5rem;
-}
-
-.block-one-icon {
-  width: 100%;
-  padding: 10px;
-  text-align: center;
-}
-
-.block-one-icon span {
+.header-logo h1 {
+  color: #66bfbf;
+  font-weight: bold;
+  justify-self: center;
   font-size: 5rem;
+  font-family: "Passions Conflict", cursive;
 }
 
-.block-one-icon .iconos {
-  background: #e65a27;
+.header-list {
+  display: grid;
+  grid-template: repeat(2, 1fr);
+  justify-content: center;
 }
 
-/* SECTION cuadros  DE BLOCK TWO */
-.block-two-top {
-  position: relative;
-  top: 20rem;
-}
-.block-two-boxs {
-  position: relative;
-  box-sizing: border-box;
-}
-.block-two-boxs > * {
-  box-sizing: border-box;
-  padding: 10px;
-}
-.block-two-box h2 {
-  color: #ffe268;
-}
-.block-two-name span {
-  color: #ffe268;
+.header-list ul {
+  display: flex;
+  align-items: center;
 }
 
-.block-two-name {
-  padding: 2rem;
-}
-.block-two-box span {
-  position: relative;
-  color: #2f5d62;
-  margin-left: 90%;
-  top: -30px;
-}
-
-.block-two-img img {
-  width: 70%;
+.header-list ul li {
+  list-style: none;
+  text-decoration: none;
+  margin-right: 3rem;
+  border-bottom: solid;
+  border-color: transparent;
+  transition: all 0.7s ease;
 }
 
-.block-two-box {
-  margin-top: 30px;
-  padding: 20px;
-  color: #ccc;
-  border-radius: 5px;
-  background-color: #25262a;
-  -webkit-box-shadow: 5px 5px 15px 5px #ffe268;
-  box-shadow: 5px 5px 15px 5px #2f5d62;
+.header-list ul li.active {
+  border-bottom: solid;
+  border-color: #66bfbf;
+  opacity: 1;
 }
-/* SECTION BLOCK- html css THEE-GAFICO */
 
-.block-theer-grafico > * {
+.header-list ul li:hover {
+  border-bottom: solid;
+  border-color: #66bfbf;
+}
+
+/* section de container verde con nombre */
+
+.colorContainerName {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+}
+.container-name {
   position: relative;
   top: 8rem;
-  margin: 6px;
-  padding: 20px;
-  /* border: #07cf28 solid 4px; */
-}
-.block-theer-filas > * {
-  border: solid 3px #2f5d62;
-  margin: 10px;
-  padding: 20px;
-  background: #25262a;
-  box-shadow: 5px 5px 15px 5px #2f5d62;
-}
-.react {
-  background-color: #5ed2f3;
-  color: #fff;
-  width: 50%;
-  margin: auto;
-}
-.html {
-  background-color: #eb4d28;
-  color: #fff;
-  width: 50%;
-  margin: auto;
-}
-.css {
-  background-color: #146eb0;
-  color: #fff;
-  width: 50%;
-  margin: auto;
+  /* border: #66bfbf solid 2px; */
 }
 
-.booststrap {
-  background-color: #7952b3;
-  color: #fff;
-  width: 70%;
-  margin: auto;
-}
-.javascript {
-  background-color: #f7df1e;
-  color: #25262a;
-  width: 50%;
-  margin: auto;
-}
-.gitgub {
-  background-color: #25262a;
-  color: #ccc;
-  width: 50%;
-  margin: auto;
-  /* border: 3px solid red; */
-}
-.git {
-  background-color: #eb4d28;
-  color: #f7f9fd;
-  width: 50%;
-  margin: auto;
-}
-.block-theer-filas span {
-  font-family: "BIZ UDGothic", sans-serif;
-}
-.block-theer-grafico img {
-  width: 35%;
-}
-
-/* SECTION BLOCK-FOUR-PAGES */
-
-.block-four-pages > * {
-  position: relative;
-  top: 6rem;
-  margin: 15px;
-}
-.block-four-pages > * h2 {
-  color: #ffe268;
-}
-
-.bock-four-fila > * {
-  margin: 15px;
-  border: #2f5d62 solid 3px;
-  padding: 10px;
-  border-radius: 5px;
-  background-color: #25262a;
-  box-shadow: 5px 5px 15px 5px #2f5d62;
-}
-.bock-four-fila a {
-  color: #fff;
-}
-
-.block-four-pages img {
-  width: 100%;
-}
-.manto:hover {
-  position: relative;
-  display: block;
-  background: #101111;
-  box-shadow: 5px 5px 15px 5px #2f5d62;
-}
-/* footer */
-
-.instagram {
-  color: #d53464;
-}
-
-.twitter {
-  color: #1c96e8;
-}
-
-.linkedin {
-  color: #2663ac;
-}
-
-.github {
-  color: #062636;
-}
-.body-footer {
+.colorContainerName h1 {
   display: flex;
-  align-items: center;
-  background-color: #25262a;
-  height: 30rem;
-}
-.body-footer > * {
-  margin: 15px;
-  padding: 10px;
-}
-.fondo-icono {
-  display: flex;
-  align-items: center;
   justify-content: center;
-  color: #1877f2;
-  background: #fff;
-  font-size: 30px;
+  font-family: "Passions Conflict", cursive;
+  color: #66bfbf;
+  font-size: 6rem;
+}
+
+/* section donde la información */
+
+.container-text {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1rem;
+}
+
+.containerA-text {
+  display: grid;
+  grid-template: repeat(2, 1fr);
+}
+
+.text {
+  justify-self: center;
+  align-self: center;
+  padding: 2rem;
+}
+
+.text h2 {
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.text p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text h5 {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+/* section donde van los botones */
+
+.containerA-botones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerA-botones a {
+  width: 10rem;
+  margin: 2rem;
+  background-color: #66bfbf;
+  border: transparent;
+  font-size: 1.5rem;
+}
+
+/* section donde van la foto */
+.containerB-foto {
+  display: grid;
+  grid-template: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.containerDiv-foto {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  font-weight: bold;
+}
+
+.containerDiv-foto img {
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  width: 50%;
+  padding: 1rem;
 }
-.section-work {
-  width: 100%;
-  /* border: 2px solid rosybrown; */
+
+.containerDiv-foto h4 {
+  font-weight: bold;
 }
-/*  */
+
+.index-trabajo {
+  display: none;
+}
+
+/* container donde van los proyecto */
+.continerProyectos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1rem;
+}
+
+.continerProyectos h5 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.continerProyectos span {
+  color: #66bfbf;
+  font-weight: bold;
+  /* font-size: 2rem; */
+}
+
+.continerProyectos .boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.continerProyectos a {
+  width: 10rem;
+  margin: 2rem;
+  background-color: #66bfbf;
+  border: transparent;
+  font-size: 1.5rem;
+}
+
+/* section de classes manejadas con javascript */
+/* el va sosteniendo las pestaña o tab */
+
+.contenedor-taps {
+  position: relative;
+  top: 10rem;
+}
+
+.taps.active {
+  transition: all 0.8s ease;
+  display: block;
+}
+/* .index  */
+.taps {
+  position: absolute;
+  display: none;
+  transition: all 0.5s ease;
+  padding: 1rem;
+  background-color: #f5f6f7;
+}
+
+/* section de las tecnologías */
+.containerTecnologias {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1rem;
+}
+.tecnolog .card {
+  padding: 1rem;
+}
+.tecnolog h3,
+h5 {
+  font-weight: bold;
+}
+.containerTecnologias .iconos {
+  display: flex;
+  object-fit: cover;
+  padding: 1.3rem;
+  overflow: hidden;
+  border: 2px solid #66bfbf;
+  place-self: center stretch;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+.iconos img {
+  width: 6rem;
+}
+
+.tapIcon h2 {
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.tapIcon {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  padding: 1rem;
+  border-radius: 5px;
+}
+/* sobre mi */
+.containerSobreMi {
+  display: block;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+}
+.containerSobreMi h3 {
+  color: #66bfbf;
+  font-weight: bold;
+}
+.containerSobreMi p {
+  font-weight: bold;
+}
+.containerSobreMi span {
+  color: #66bfbf;
+  font-weight: bold;
+}
+/* container sobre fooder */
+.contenedorFoder {
+  display: flex;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-top: 4rem;
+  right: 0px;
+  left: 0;
+}
+
+.link span {
+  background-color: #ffffff;
+  color: #0a66c2;
+  border-radius: 4px;
+}
+
+.contenedorFoder h5 {
+  color: #3a4750;
+  font-size: 2rem;
+}
+.fooderIcono span {
+  text-decoration: none;
+  margin: 1rem;
+  font-size: 4rem;
+}
+.fooderIcono a {
+  text-decoration: none;
+  color: #3a4750;
+}
+.footerIconos {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  gap: 1rem;
+}

@@ -1,5 +1,5 @@
 const li = document.querySelectorAll(".nav-item");
-const bloque = document.querySelectorAll(".index");
+const bloque = document.querySelectorAll(".taps");
 console.log(bloque);
 
 li.forEach((cadaLi, i) => {
