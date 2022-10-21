@@ -18,7 +18,12 @@ html {
   position: fixed;
   min-width: 100%;
   z-index: 1;
+
   background-color: #f5f6f7;
+}
+.header-espanol {
+  background-color: #66bfbf;
+  color: #ffffff;
 }
 
 .header-logo h1 {
@@ -28,7 +33,13 @@ html {
   font-size: 5rem;
   font-family: "Passions Conflict", cursive;
 }
-
+.header-logo2 h1 {
+  color: #ffffff;
+  font-weight: bold;
+  justify-self: center;
+  font-size: 5rem;
+  font-family: "Passions Conflict", cursive;
+}
 .header-list {
   display: grid;
   grid-template: repeat(2, 1fr);
@@ -52,32 +63,61 @@ html {
 .header-list ul li.active {
   border-bottom: solid;
   border-color: #66bfbf;
+  /* border-color: #ffffff; */
   opacity: 1;
 }
 
 .header-list ul li:hover {
   border-bottom: solid;
   border-color: #66bfbf;
+  /* border-color: #ffffff; */
 }
 
+.header-spano ul li.actives {
+  border-bottom: solid;
+  /* border-color: #66bfbf; */
+  border-color: #ffffff;
+  opacity: 1;
+}
+
+.header-spano ul li:hover {
+  border-bottom: solid;
+  /* border-color: #66bfbf; */
+  border-color: #ffffff;
+}
 /* section de container verde con nombre */
 
-.colorContainerName {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-}
 .container-name {
   position: relative;
-  top: 8rem;
-  border: #66bfbf solid 2px;
-}
-
-.colorContainerName h1 {
+  top: 9rem;
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+.container-name2 {
+  position: relative;
+  top: 8rem;
+  left: 0;
+  right: 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #66bfbf; */
+}
+
+.container-name2 h1 {
+  font-family: "Passions Conflict", cursive;
+  color: #3a4750;
+  font-size: 4rem;
+}
+
+.container-name h1 {
   font-family: "Passions Conflict", cursive;
   color: #66bfbf;
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 /* section donde la información */
@@ -138,7 +178,7 @@ html {
 .containerB-foto {
   display: grid;
   grid-template: repeat(2, 1fr);
-  gap: 1rem;
+  gap: 3rem;
 }
 
 .containerDiv-foto {
@@ -166,7 +206,17 @@ html {
 .continerProyectos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  gap: 1rem;
+  gap: 2rem;
+}
+
+.card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.card:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+  transition: all 0.3s ease;
+  background-color: #f5f6f7;
+  z-index: 5;
 }
 
 .continerProyectos h5 {
@@ -198,27 +248,38 @@ html {
 .contenedor-taps {
   position: relative;
   top: 10rem;
+  /* border: solid red 3px; */
+  height: 100vh;
 }
 
 .taps.active {
-  transition: all 0.8s ease;
+  transition: all 5s ease;
   display: block;
 }
+
+/* .taps.actives {
+  transition: all 5s ease;
+  display: block;
+} */
 /* .index  */
 .taps {
   position: absolute;
   display: none;
-  transition: all 0.5s ease;
-  padding: 1rem;
+  transition: all 5s ease;
+
   background-color: #f5f6f7;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  /* height: 60vh; */
 }
 
 /* section de las tecnologías */
 .containerTecnologias {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   gap: 1rem;
-  border: solid 2px #0a66c2;
+  /* border: solid 2px #0a66c2; */
 }
 .tecnolog .card {
   padding: 1rem;
@@ -334,7 +395,7 @@ html {
 /* HABILIDADES DE ESPANOL  */
 .galeria {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   gap: 20px;
   justify-items: center;
   align-content: center;
@@ -358,7 +419,7 @@ html {
   top: 0px;
   width: 100%;
   height: 100%;
-  background-color: rgba(32, 87, 87, 0.8);
+  background-color: rgba(15, 42, 42, 0.9);
   transition: all 500ms ease-out;
   opacity: 0;
   text-align: center;
@@ -369,22 +430,23 @@ html {
 }
 
 .img .capa:hover > h3 {
-  margin-top: 70px;
-  margin-bottom: 15px;
+  margin-top: 40px;
+  margin-bottom: 10px;
 }
 
 .img .capa h3 {
   color: #ffffff;
   font-weight: 400;
-  margin-bottom: 120px;
+  font-size: 2rem;
+  margin-bottom: 100px;
   transition: all 500ms ease-out;
   margin-top: 20px;
   text-transform: uppercase;
 }
 .img .capa p {
   color: #ffffff;
-  font-size: 15px;
-  line-height: 1.5;
+  font-size: 1.6rem;
+  line-height: 1.3;
   width: 100%;
   max-width: 220px;
   margin: auto;
