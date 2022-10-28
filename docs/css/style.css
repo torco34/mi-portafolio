@@ -11,35 +11,26 @@ html {
   font-size: 62.5%;
 }
 
-/* section the header */
+/* SECTION THE PAGES INGLES HEADER */
 .header {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   position: fixed;
   min-width: 100%;
   z-index: 1;
-
+  height: 5rem;
   background-color: #f5f6f7;
-}
-.header-espanol {
-  background-color: #66bfbf;
-  color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .header-logo h1 {
   color: #66bfbf;
   font-weight: bold;
   justify-self: center;
-  font-size: 5rem;
+  font-size: 3rem;
   font-family: "Passions Conflict", cursive;
 }
-.header-logo2 h1 {
-  color: #ffffff;
-  font-weight: bold;
-  justify-self: center;
-  font-size: 5rem;
-  font-family: "Passions Conflict", cursive;
-}
+
 .header-list {
   display: grid;
   grid-template: repeat(2, 1fr);
@@ -63,55 +54,26 @@ html {
 .header-list ul li.active {
   border-bottom: solid;
   border-color: #66bfbf;
-  /* border-color: #ffffff; */
   opacity: 1;
 }
 
 .header-list ul li:hover {
   border-bottom: solid;
   border-color: #66bfbf;
-  /* border-color: #ffffff; */
 }
 
-.header-spano ul li.actives {
-  border-bottom: solid;
-  /* border-color: #66bfbf; */
-  border-color: #ffffff;
-  opacity: 1;
-}
-
-.header-spano ul li:hover {
-  border-bottom: solid;
-  /* border-color: #66bfbf; */
-  border-color: #ffffff;
-}
 /* section de container verde con nombre */
 
 .container-name {
   position: relative;
-  top: 9rem;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.container-name2 {
-  position: relative;
   top: 8rem;
   left: 0;
   right: 0;
+
   display: flex;
-  width: 100%;
   justify-content: center;
   align-items: center;
-  /* background-color: #66bfbf; */
-}
-
-.container-name2 h1 {
-  font-family: "Passions Conflict", cursive;
-  color: #3a4750;
-  font-size: 4rem;
+  /* color: #66bfbf; */
 }
 
 .container-name h1 {
@@ -145,17 +107,16 @@ html {
   font-size: 1.6rem;
   text-transform: uppercase;
   font-weight: bold;
+  color: #000303;
 }
 
 .text p {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .text h5 {
-  font-weight: bold;
-  font-size: 1.6rem;
+  font-size: 1.9rem;
 }
 
 /* section donde van los botones */
@@ -169,6 +130,7 @@ html {
 .containerA-botones a {
   width: 10rem;
   margin: 2rem;
+  color: #fff;
   background-color: #66bfbf;
   border: transparent;
   font-size: 1.5rem;
@@ -186,6 +148,7 @@ html {
   justify-items: center;
   align-content: center;
   font-weight: bold;
+  color: #000303;
 }
 
 .containerDiv-foto img {
@@ -196,13 +159,14 @@ html {
 
 .containerDiv-foto h4 {
   font-weight: bold;
+  color: #66bfbf;
+  font-size: 2rem;
+}
+.containerDiv-foto h2 {
+  font-weight: bold;
 }
 
-.index-trabajo {
-  display: none;
-}
-
-/* container donde van los proyecto */
+/* SECTION DE PROYECTOS EN INGLES*/
 .continerProyectos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -210,7 +174,7 @@ html {
 }
 
 .card {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(21, 22, 22, 0.5);
 }
 .card:hover {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
@@ -226,7 +190,6 @@ html {
 .continerProyectos span {
   color: #66bfbf;
   font-weight: bold;
-  /* font-size: 2rem; */
 }
 
 .continerProyectos .boton {
@@ -243,12 +206,11 @@ html {
 }
 
 /* section de classes manejadas con javascript */
-/* el va sosteniendo las pestaña o tab */
+/* el va sosteniendo las pestaña o ta COMPARTEN CON ESPANOL*/
 
 .contenedor-taps {
   position: relative;
   top: 10rem;
-  /* border: solid red 3px; */
   height: 100vh;
 }
 
@@ -257,34 +219,26 @@ html {
   display: block;
 }
 
-/* .taps.actives {
-  transition: all 5s ease;
-  display: block;
-} */
-/* .index  */
 .taps {
   position: absolute;
   display: none;
   transition: all 5s ease;
-
   background-color: #f5f6f7;
   top: 0;
   left: 0;
   padding: 1rem;
-  /* height: 60vh; */
 }
 
-/* section de las tecnologías */
+/* section de las tecnologías ingles */
 .containerTecnologias {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1rem;
-  /* border: solid 2px #0a66c2; */
 }
 .tecnolog .card {
   padding: 1rem;
   transition: all 0.3s ease;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(17, 188, 210, 0.5);
   font-size: 1.5rem;
 }
 
@@ -292,6 +246,11 @@ html {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   background-color: #66bfbf;
   transition: all 500ms ease-out;
+}
+
+.tecnolog .card:hover h3 {
+  transition: all 500ms ease-out;
+  color: #fff;
 }
 .tecnolog .card:hover > .iconos {
   border: 2px solid #edf6f6;
@@ -308,6 +267,7 @@ html {
 }
 .tecnolog h3 {
   font-weight: bold;
+  color: #14bfbf;
 }
 
 .containerTecnologias .iconos {
@@ -339,7 +299,7 @@ html {
   padding: 1rem;
   border-radius: 5px;
 }
-/* sobre mi */
+/* SECTION SOBRE MI ESTA COMPARTIDA CON ESPANOL*/
 .containerSobreMi {
   display: block;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -351,11 +311,8 @@ html {
 .containerSobreMi p {
   font-weight: bold;
 }
-.containerSobreMi span {
-  color: #66bfbf;
-  font-weight: bold;
-}
-/* container sobre fooder */
+
+/* SECTION DEL FOODER COMPARTIDO ESPANOL */
 .contenedorFoder {
   display: flex;
   height: 50vh;
@@ -392,7 +349,67 @@ html {
   align-content: center;
   gap: 1rem;
 }
-/* HABILIDADES DE ESPANOL  */
+
+/* SECTION THE PAGES SPANISH HEADER */
+.header-espanol {
+  background-color: #66bfbf;
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.header-logo2 h1 {
+  color: #ffffff;
+
+  font-weight: bold;
+  justify-self: center;
+  font-size: 3rem;
+  font-family: "Passions Conflict", cursive;
+}
+.header-spano ul li.actives {
+  border-bottom: solid;
+  border-color: #ffffff;
+  opacity: 1;
+}
+
+.header-spano ul li:hover {
+  border-bottom: solid;
+  border-color: #ffffff;
+}
+/* SECTION WHERE GO NAME */
+.container-name2 {
+  position: relative;
+  top: 8rem;
+  left: 0;
+  right: 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f6f7;
+}
+
+.container-name2 h1 {
+  font-family: "Passions Conflict", cursive;
+  color: #000303;
+  font-size: 4rem;
+}
+
+/* SECTION DE JAVASCRIPT ESPANOL */
+
+.taps2.actives {
+  transition: all 5s ease;
+  display: block;
+}
+.taps2 {
+  position: absolute;
+  display: none;
+  transition: all 5s ease;
+  background-color: #f5f6f7;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+}
+
+/* HABILIDADES DE ESPANOL */
 .galeria {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
@@ -413,6 +430,15 @@ html {
   height: 100%;
   transition: all 3s ease;
 }
+.paleta {
+  color: #000303;
+  background-color: #000303;
+  color: #66bfbf;
+}
+.capa span {
+  /* color: #d96098; */
+  color: #66bfbf;
+}
 .capa {
   position: absolute;
   cursor: pointer;
@@ -430,12 +456,13 @@ html {
 }
 
 .img .capa:hover > h3 {
-  margin-top: 40px;
+  margin-top: 30px;
   margin-bottom: 10px;
 }
 
 .img .capa h3 {
-  color: #66bfbf;
+  color: #19dcdc;
+  /* color: #d96098; */
   font-weight: 400;
   font-size: 2rem;
   margin-bottom: 100px;
@@ -450,4 +477,78 @@ html {
   width: 100%;
   max-width: 220px;
   margin: auto;
+}
+/*  PROYECTOS DE ESPANOL  */
+
+.containerProyecto {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+  gap: 20px;
+  justify-items: center;
+  align-content: center;
+}
+.imgProyect {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-family: "Abyssinica SIL", serif;
+}
+.imgProyect img {
+  width: 100%;
+  height: 100%;
+  transition: all 3s ease;
+}
+.textProyecto {
+  position: absolute;
+  cursor: pointer;
+  top: 0px;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  text-align: center;
+}
+.textProyecto:hover {
+  opacity: 1;
+  filter: grayscale(0%);
+}
+
+.textProyecto:hover > h3 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.textProyecto h3 {
+  color: #66bfbf;
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin-bottom: 100px;
+  transition: all 400ms ease-out;
+  text-transform: uppercase;
+}
+.textProyecto p {
+  color: #ffffff;
+  font-size: 1.5rem;
+  line-height: 1;
+  width: 100%;
+  max-width: 250px;
+  margin: auto;
+}
+
+.textProyecto a {
+  text-align: center;
+  width: 5rem;
+  border: transparent;
+  color: #fff;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  background-color: #66bfbf;
+}
+.textProyecto span {
+  color: #66bfbf;
+  border: transparent;
 }

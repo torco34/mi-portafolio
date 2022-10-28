@@ -23,6 +23,7 @@
       href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="" />
     <title>Spanish</title>
   </head>
   <body>
@@ -51,7 +52,7 @@
             <ul id="ul" class="navbar-nav navbar-nav-scroll">
               <li class="nav-item actives">Inicio</li>
               <li class="nav-item">Proyectos</li>
-              <li class="nav-item">Tecnología</li>
+              <li class="nav-item">Habilidades</li>
               <li class="nav-item">Sobre Mi</li>
               <!-- <li id="sobre" class="nav-item">proyecto</li> -->
             </ul>
@@ -67,15 +68,17 @@
     </section>
     <div class="container contenedor-taps">
       <!-- container donde va la información de quien soy -->
-      <section class="container taps active">
+      <section class="container taps2 actives">
         <div class="container container-text">
           <div class="container containerA-text">
             <div class="text">
-              <h2>Soy desarrolladora web autodidacta.</h2>
+              <h2>Soy desarrolladora web front-end</h2>
               <p>
-                Construyo y codifico interfaces digitales, páginas web y
-                aplicaciones. Mis herramientas son:
+                Construyo y codifico interfaces gráficas, páginas web y
+                aplicaciones. Soy autodidacta.
               </p>
+              &nbsp;
+              <h2>Mis habilidades son</h2>
 
               <h5>
                 HTML5, CSS3, JavaScript, Bootstrap, Git, GitHub y React.js
@@ -90,7 +93,8 @@
           <div class="containerB-foto">
             <div class="containerDiv-foto">
               <img src="../img/foto.jpg" alt="foto" />
-              <h3>Torcoroma Arias Ascanio</h3>
+              <h2>Torcoroma Arias Ascanio</h2>
+              <h4>Developer Junior</h4>
             </div>
           </div>
         </div>
@@ -114,181 +118,193 @@
         </footer>
       </section>
       <!-- tap de proyectos -->
-      <section class="container taps">
-        <div class="container continerProyectos">
-          <div class="card">
-            <img src="../img/refugio.png" class="" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">
-                Refugio Amor Y Paz (<span>( Real )</span>)
-              </h5>
-              <p class="card-text">
+      <section class="container taps2">
+        <div class="containerProyecto">
+          <div class="imgProyect">
+            <img src="../img/refugio.png" alt="" />
+            <div class="textProyecto">
+              <h3>Refugio Amor Y Paz (<span>( Real )</span>)</h3>
+              <p>
                 Esta página es real, se ejecuta en el servidor. tecnología en la
-                que colabore SendGrid, Node.js, Express, JavaScrip.js
+                que colabore SendGrid, Node.js, Express, JavaScrip.js<br />
+                <span> Fecha 02/04/2022</span>
               </p>
-              <p>Fecha ejecución 02/04/2022</p>
-            </div>
-            <div class="boton">
+
               <a
-                href="https://github.com/torco34/refugio-amor-paz/tree/master/docs"
-                class="btn btn-dark"
+                href="https://torco34.github.io/refugio-amor-paz/"
+                class="btn btn-light"
                 >Ver</a
               >
               <a
-                href="https://torco34.github.io/refugio-amor-paz/"
-                class="btn btn-dark"
+                href="https://github.com/torco34/refugio-amor-paz/tree/master/docs"
+                class="btn btn-light"
                 >GitHub</a
               >
             </div>
           </div>
-          <!-- card 2 -->
-          <div class="card">
-            <img src="../img/miTiend.png" class="" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">OnlineShop (<span>( Practica )</span>)</h5>
-              <p class="card-text">
+          <!-- proyecto2 -->
+          <div class="imgProyect">
+            <img src="../img/tablaTarea.png" alt="" />
+            <div class="textProyecto">
+              <h3>Organizador-Tareas (<span>( Practica )</span>)</h3>
+              <p>
+                Esta APP agrega elimina y selecciona una lista de tareas.
+                Tecnologia: React.js Hooks LocalStorage. Router.js y Context
+                provides.<br />
+                <span>Fecha 01/08/2021</span>
+              </p>
+              <a
+                href="https://torco34.github.io/todos-tarea/"
+                class="btn btn-light"
+                >Ver</a
+              >
+              <a
+                href="https://github.com/torco34/todos-tarea"
+                class="btn btn-light"
+                >GitHub</a
+              >
+            </div>
+          </div>
+          <!-- proyecto3 rik -->
+          <div class="imgProyect">
+            ....
+            <img src="../img/rick.png" alt="" />
+            <div class="textProyecto">
+              <h3>Rick and Morty (<span>( Practica )</span>)</h3>
+              <p>
+                Esta App esta consumiendo la API de Rick And Morty, todo los
+                botones en funcionamiento Tecnología : React.js, Context
+                provides, axios y Hooks<br />
+                <span>Fecha 01/07/2022</span>
+              </p>
+
+              <a href="#" class="btn btn-light text-center">See</a>
+              <a
+                href="https://github.com/torco34/appRickAndMorty"
+                class="btn btn-light"
+                >GitHub</a
+              >
+            </div>
+          </div>
+          <!-- proyecto4 mitienda -->
+          <div class="imgProyect">
+            <img src="../img/miTiend.png" alt="" />
+            <div class="textProyecto">
+              <h3>OnlineShop (<span>( Practica )</span>)</h3>
+              <p>
                 Este proyecto agregar artículos al carrito, suma valor y me
                 dirige al botón de pago de PayPal. Tecnología utilizada:
-                React.js, router, Context, PayPal API,
+                React.js, router, Context, PayPal API<br />
+                <span>Fecha 02/08/2022</span>
               </p>
-              <p>Fecha: en proceso</p>
-            </div>
-            <div class="boton">
               <a
                 href="https://torco34.github.io/my-tienda/"
-                class="btn btn-dark"
+                class="btn btn-light"
                 >Ver</a
               >
               <a
                 href="https://github.com/torco34/my-tienda"
-                class="btn btn-dark"
+                class="btn btn-light"
                 >GitHub</a
               >
             </div>
           </div>
-          <!-- card 3 -->
 
-          <div class="card">
-            <img src="../img/tablaTarea.png" class="" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">
-                Organizador-Tareas (<span>( Practica )</span>)
-              </h5>
-              <p class="card-text">
-                Esta APP agrega elimina y selecciona una lista de tareas.
-                Tecnología utilizada: React.js Hooks LocalStorage. Router.js y
-                Context provides.
-              </p>
-
-              <p>Fecha ejecución 01/08/2021</p>
-            </div>
-            <div class="boton">
-              <a
-                href="https://torco34.github.io/todos-tarea/"
-                class="btn btn-dark"
-                >Ver</a
-              >
-              <a href="#" class="btn btn-dark">GitHub</a>
-            </div>
-          </div>
-
-          <!-- card 4 -->
-          <div class="card">
-            <img src="../img/rick.png" class="" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">
-                Rick and Morty (<span>( Practica )</span>)
-              </h5>
-              <p class="card-text">
-                Esta App esta consumiendo la API de Rick And Morty, todo los
-                botones en funcionamiento Tecnología utilizada: React.js,
-                Context provides, axios y Hooks
-              </p>
-              <p>Fecha ejecución 02/08/2022</p>
-            </div>
-            <div class="boton">
-              <a href="#" class="btn btn-dark">Ver</a>
-              <a href="#" class="btn btn-dark">GitHub</a>
-            </div>
-          </div>
-          <!-- card 5 -->
-          <div class="card">
-            <img src="../img/fo.png" class="" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">NEWmusic. (<span>( Practica )</span>)</h5>
-              <p class="card-text">
-                Fue creado con solo componentes de tipo función. Tecnología
-                utilizada: React.js, styled-components
-              </p>
-              <p>Fecha ejecución 02/08/2021</p>
-            </div>
-            <div class="boton">
-              <a href="#" class="btn btn-dark">Ver</a>
-              <a href="#" class="btn btn-dark">GitHub</a>
-            </div>
-          </div>
-          <!-- card 6 -->
-          <div class="card">
-            <img src="../img/classs.png" class="" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">
-                Código-verificación (<span>( Practica )</span>)
-              </h5>
-              <p class="card-text">
-                En la App solo permite continuar si el código es verdadero, hay
-                dos versiones con clase y con hooks. utilizada: React.js
-              </p>
-              <p>Fecha ejecución 02/05/2022</p>
-            </div>
-            <div class="boton">
-              <a href="#" class="btn btn-dark">Ver</a>
-              <a href="#" class="btn btn-dark">GitHub</a>
-            </div>
-          </div>
-          <!-- card 7 -->
-          <div class="card">
-            <img src="../img/tarea.png" class="" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">
-                Tabla-editar-tarea (<span>( Practica )</span>)
-              </h5>
-              <p class="card-text">
-                en la aplicación se crea una lista de tareas, puede editar la
-                tarea realizada y eliminar. Tecnología utilizada: React.js
-              </p>
-              <p>Fecha ejecución 05/06/2022</p>
-            </div>
-            <div class="boton">
-              <a href="#" class="btn btn-dark">Ver</a>
-              <a href="#" class="btn btn-dark">GitHub</a>
-            </div>
-          </div>
-          <!-- card 8 -->
-          <div class="card">
-            <img src="../img/lugarM.png" class="" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">
-                Galería imágenes(<span>( Practica )</span>)
-              </h5>
-              <p class="card-text">
+          <div class="imgProyect">
+            listo
+            <img src="../img/lugar.png" alt="" />
+            <div class="textProyecto">
+              <h3>Galería imágenes (<span>( Practica )</span>)</h3>
+              <p>
                 Es pagina es una galería que muestra lugares increíble, puedes
                 buscar la imagen por país. Hecha en: HTML5, CSS3, JavaScript,
-                Bootstrap
+                Bootstrap<br />
+
+                <span>Fecha 02/03/2020</span>
               </p>
-              <p>Fecha ejecución 02/04/2019</p>
-            </div>
-            <div class="boton">
               <a
                 href="https://torco34.github.io/lugares-magico/"
                 class="btn btn-dark"
                 >Ver</a
               >
-              <a href="#" class="btn btn-dark">GitHub</a>
+              <a
+                href="https://github.com/torco34/lugares-magico"
+                class="btn btn-light"
+                >GitHub</a
+              >
             </div>
           </div>
 
-          <!-- sede9 -->
+          <div class="imgProyect">
+            <img src="../img/classs.png" alt="" />
+            <div class="textProyecto">
+              <h3>Código-verificación (<span>( Practica )</span>)</h3>
+              <p>
+                En la App solo permite continuar si el código es verdadero, hay
+                dos versiones con clase y con hooks. utilizada: React.js<br />
+                <span>Fecha 05/06/2022</span>
+              </p>
+              <a href="#" class="btn btn-light">See</a>
+              <a href="#" class="btn btn-light">GitHub</a>
+            </div>
+          </div>
+
+          <div class="imgProyect">
+            <img src="../img/app.png" alt="" />
+            <div class="textProyecto">
+              <h3>Tabla-editar-tarea (<span>( Practica )</span>)</h3>
+              <p>
+                en la aplicación se crea una lista de tareas, puede editar la
+                tarea realizada y eliminar. Utilizada: React.js<br />
+                <span>Fecha 05/06/2022</span>
+              </p>
+              <a href="#" class="btn btn-light">Ver</a>
+              <a
+                href="https://github.com/torco34/eliminaEditaTarea"
+                class="btn btn-light"
+                >GitHub</a
+              >
+            </div>
+          </div>
+
+          <div class="imgProyect">
+            <img src="../img/landi.png" alt="" />
+            <div class="textProyecto">
+              <h3>lading-pages Apple (<span>( Practica )</span>)</h3>
+              <p>
+                Fue creado con solo componentes de tipo función. Tecnología
+                utilizada: React.js, styled-components.<br />
+                <span>Fecha 05/06/2022</span>
+              </p>
+              <a href="#" class="btn btn-light">ver</a>
+              <a
+                href="https://github.com/torco34/lading-pages"
+                class="btn btn-light"
+                >GitHub</a
+              >
+            </div>
+          </div>
+
+          <!-- proyecto9 -->
+          <div class="imgProyect">
+            <img src="../img/landi.png" alt="" />
+            <div class="textProyecto">
+              <h3>lading-pages Apple (<span>( Practica )</span>)</h3>
+              <p>
+                Fue creado con solo componentes de tipo función. Tecnología
+                utilizada: React.js, styled-components.<br />
+                <span>Fecha 05/06/2022</span>
+              </p>
+              <a href="#" class="btn btn-light">ver</a>
+              <a
+                href="https://github.com/torco34/lading-pages"
+                class="btn btn-light"
+                >GitHub</a
+              >
+            </div>
+          </div>
         </div>
+
         <footer class="contenedorFoder">
           <div class="contenedor_foder">
             <div class="footerIconos">
@@ -310,7 +326,7 @@
         </footer>
       </section>
       <!-- Tecnologia -->
-      <section class="container taps">
+      <section class="container taps2">
         <div class="container">
           <div class="galeria">
             <div class="img">
@@ -318,7 +334,7 @@
               <div class="capa">
                 <h3>HTML5</h3>
                 <p>Es un lenguaje de etiquetas.</p>
-                <p>Intermedio</p>
+                <span>Intermedio</span>
               </div>
             </div>
             <div class="img">
@@ -326,7 +342,7 @@
               <div class="capa">
                 <h3>CSS3</h3>
                 <p>Lenguaje de diseño gráfico</p>
-                <p>Intermedio</p>
+                <span>Intermedio</span>
               </div>
             </div>
             <div class="img">
@@ -334,7 +350,8 @@
               <div class="capa">
                 <h3>JavaScript</h3>
                 <p>Lenguaje de programación</p>
-                <p>Básico</p>
+
+                <span> Básico</span>
               </div>
             </div>
             <div class="img">
@@ -342,7 +359,7 @@
               <div class="capa">
                 <h3>BOOTSTRAP</h3>
                 <p>Bootstrap es una biblioteca</p>
-                <p>Intermedio</p>
+                <span>Intermedio</span>
               </div>
             </div>
             <div class="img">
@@ -351,7 +368,7 @@
               <div class="capa">
                 <h3>React.JS</h3>
                 <p>React es una biblioteca Javascript</p>
-                <p>Básico</p>
+                <span> Básico</span>
               </div>
             </div>
             <div class="img">
@@ -360,7 +377,7 @@
               <div class="capa">
                 <h3>ROUTER.JS</h3>
                 <p>Crea rutas con Router en React</p>
-                <p>Básico</p>
+                <span> Básico</span>
               </div>
             </div>
             <div class="img">
@@ -368,7 +385,7 @@
               <div class="capa">
                 <h3>Express</h3>
                 <p>Entorno de trabajo para aplicaciones web</p>
-                <p>Básico</p>
+                <span> Básico</span>
               </div>
             </div>
             <div class="img">
@@ -376,7 +393,7 @@
               <div class="capa">
                 <h3>Node.js</h3>
                 <p>Entorno en tiempo de ejecución multiplataforma,</p>
-                <p>Básico</p>
+                <span> Básico</span>
               </div>
             </div>
             <div class="img">
@@ -384,7 +401,7 @@
               <div class="capa">
                 <h3>next.js</h3>
                 <p>Marco web de desarrollo de React</p>
-                <p>Básico</p>
+                <span> Básico</span>
               </div>
             </div>
             <div class="img">
@@ -392,7 +409,7 @@
               <div class="capa">
                 <h3>git</h3>
                 <p>Git es un software de control de versiones</p>
-                <p>Básico</p>
+                <span> Básico</span>
               </div>
             </div>
             <div class="img">
@@ -400,7 +417,7 @@
               <div class="capa">
                 <h3>github</h3>
                 <p>GitHub es una forja para alojar proyectos</p>
-                <p>Básico</p>
+                <span> Básico</span>
               </div>
             </div>
             <div class="img">
@@ -408,7 +425,7 @@
               <div class="capa">
                 <h3>SendGrid</h3>
                 <p>Es una plataforma de comunicación con el cliente</p>
-                <p>Básico</p>
+                <span> Básico</span>
               </div>
             </div>
             <div class="img">
@@ -416,7 +433,7 @@
               <div class="capa">
                 <h3>Redux</h3>
                 <p>Redux es una librería JavaScript</p>
-                <p>Básico</p>
+                <span> Básico</span>
               </div>
             </div>
             <div class="img">
@@ -424,7 +441,7 @@
               <div class="capa">
                 <h3>Linux</h3>
                 <p>Linux Sistema operativo</p>
-                <p>Básico</p>
+                <span> Básico</span>
               </div>
             </div>
             <div class="img">
@@ -432,7 +449,7 @@
               <div class="capa">
                 <h3>Grid Layout</h3>
                 <p>Alinear elementos en columnas y filas</p>
-                <p>Básico</p>
+                <span> Básico</span>
               </div>
             </div>
             <div class="img">
@@ -440,7 +457,7 @@
               <div class="capa">
                 <h3>Ant Design</h3>
                 <p>componentes React de alta calidad</p>
-                <p>Básico</p>
+                <span> Básico</span>
               </div>
             </div>
             <div class="img">
@@ -448,7 +465,7 @@
               <div class="capa">
                 <h3>Styled-components</h3>
                 <p>Una biblioteca creada para React</p>
-                <p>Básico</p>
+                <span> Básico</span>
               </div>
             </div>
           </div>
@@ -475,9 +492,10 @@
         <!-- 5 -->
       </section>
       <!-- de mi -->
-      <section class="container taps p-5">
+      <section class="container taps2 p-5">
         <div class="container containerSobreMi p-3">
           <h3>DE MI</h3>
+
           <p>
             Desde que convertí mi pasión en una carrera, he dedicado mi tiempo
             libre a aprender todo lo relacionado con el desarrollo web, a pesar
@@ -485,9 +503,12 @@
             comencé desde cero. He limitado mis actividades de ocio para
             dedicarme al proceso de aprendizaje que disfruto. Para conseguirlo
             he utilizado las plataformas de YouTube y Platzi. Actualmente estoy
-            estudiando inglés en la plataforma Platzi con un nivel A1.<br />
-            <span class="proposito">MI PROPÓSITO</span><br />
+            estudiando inglés en la plataforma Platzi con un nivel A1.
+          </p>
 
+          <h3>MI PROPÓSITO</h3>
+
+          <p>
             Seguir aprendiendo y desafiándome para adquirir nuevas habilidades y
             tener un nivel C2 de inglés
           </p>
