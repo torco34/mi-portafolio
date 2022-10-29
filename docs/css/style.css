@@ -18,7 +18,7 @@ html {
   position: fixed;
   min-width: 100%;
   z-index: 1;
-  height: 5rem;
+
   background-color: #f5f6f7;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
