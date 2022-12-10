@@ -1,0 +1,168 @@
+/* body {
+  background-color: #ffffff;
+  color: #3a4750;
+  font-size: 2rem;
+  box-sizing: border-box;
+  font-family: "Abyssinica SIL", serif;
+  min-height: 100vh;
+}
+
+html {
+  font-size: 62.5%;
+}
+.header {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  position: fixed;
+  min-width: 100%;
+  z-index: 1;
+  background-color: #f5f6f7;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.header-logo h1 {
+  color: #66bfbf;
+  font-weight: bold;
+  justify-self: center;
+  font-size: 3rem;
+  margin-left: 9rem;
+  font-family: "Passions Conflict", cursive;
+}
+
+.header-list {
+  display: grid;
+  grid-template: repeat(2, 1fr);
+  justify-content: center;
+}
+.header-list ul {
+  display: flex;
+  align-items: center;
+}
+
+.header-list ul li {
+  margin-right: 5rem;
+  border-bottom: solid;
+  border-color: transparent;
+  transition: all 0.7s ease;
+}
+.header-list ul li a {
+  list-style: none;
+  text-decoration: none;
+  color: #3a4750;
+}
+.header-list ul li.active {
+  border-bottom: solid;
+  border-color: #66bfbf;
+  opacity: 1;
+  color: #66bfbf;
+}
+.header-list ul li:hover {
+  border-bottom: solid;
+  border-color: #66bfbf;
+}
+.container-name {
+  position: relative;
+  top: 8rem;
+  left: 0;
+  right: 0;
+  background-color: #f5f6f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-name h1 {
+  font-family: "Passions Conflict", cursive;
+  color: #66bfbf;
+  font-size: 5rem;
+}
+*/
+
+/* section donde el nomre decorativo */
+/* .container-name {
+  position: relative;
+  top: 8rem;
+  left: 0;
+  right: 0;
+  background-color: #f5f6f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-name h1 {
+  font-family: "Passions Conflict", cursive;
+  color: #66bfbf;
+  font-size: 5rem;
+} */
+
+/* /////////////////////////////////////////
+//////////////////////////////////
+///////////////////////// */
+.containerTecnologias {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1rem;
+  margin-top: 9rem;
+}
+.tecnolog .card {
+  padding: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(17, 188, 210, 0.5);
+  font-size: 1.5rem;
+}
+.tecnolog .card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: #66bfbf;
+  transition: all 500ms ease-out;
+}
+
+.tecnolog .card:hover h3 {
+  transition: all 500ms ease-out;
+  color: #fff;
+}
+.tecnolog .card:hover > .iconos {
+  border: 2px solid #edf6f6;
+  background-color: #ffffff;
+  transition: all 500ms ease-out;
+}
+
+.tecnolog:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  transition: all 500ms ease-out;
+  transform: scale(1.2);
+  z-index: 5;
+}
+.tecnolog h3 {
+  font-weight: bold;
+  color: #14bfbf;
+}
+.containerTecnologias .iconos {
+  display: flex;
+  object-fit: cover;
+  padding: 1.3rem;
+  overflow: hidden;
+  border: 2px solid #66bfbf;
+  place-self: center stretch;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #ffffff;
+  transition: all 3s ease;
+}
+.iconos img {
+  width: 6rem;
+}
+
+.tapIcon h2 {
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.tapIcon {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  padding: 1rem;
+  border-radius: 5px;
+}

@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../../../../proyectos-react/lading-pages"
+	},
+	{
+		"path": "../.."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "mi-portafolio"
+  }
+}
