@@ -1,27 +1,29 @@
-const li = document.querySelectorAll(".nav-item");
-const bloque = document.querySelectorAll(".taps");
-const li2 = document.querySelectorAll(".nav-item");
-const bloque2 = document.querySelectorAll(".taps2");
-console.log(bloque);
+console.log(location.hash.slice(1));
 
-li.forEach((cadaLi, i) => {
-  li[i].addEventListener("click", () => {
-    li.forEach((cadaLi, i) => {
-      li[i].classList.remove("active");
-      bloque[i].classList.remove("active");
-    });
-    li[i].classList.add("active");
-    bloque[i].classList.add("active");
-  });
-});
+const taps1 = document.getElementById("taps1");
+const taps2 = document.getElementById("taps2");
+const li = document.getElementById("ul");
+console.log(taps1);
+console.log(taps2);
+console.log(li);
+(function (e) {
+  let pest = location.hash.slice(1);
+  console.log(pest);
+  if (pest) {
+    let tap = document.getElementById(pest);
 
-li2.forEach((cadali2, i) => {
-  li2[i].addEventListener("click", () => {
-    li2.forEach((cadali2, i) => {
-      li2[i].classList.remove("actives");
-      bloque2[i].classList.remove("actives");
-    });
-    li2[i].classList.add("actives");
-    bloque2[i].classList.add("actives");
-  });
+    console.log(tap);
+    if (tap) {
+      tap.click();
+    }
+  }
+})();
+
+li.addEventListener("click", () => {
+  console.log("torco");
+  if (true) {
+    taps1.classList.remove("active");
+  } else {
+    taps2.classList.add("active");
+  }
 });

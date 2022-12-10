@@ -11,18 +11,15 @@ html {
   font-size: 62.5%;
 }
 
-/* SECTION THE PAGES INGLES HEADER */
 .header {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   position: fixed;
   min-width: 100%;
   z-index: 1;
-
   background-color: #f5f6f7;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
-
 .header-logo h1 {
   color: #66bfbf;
   font-weight: bold;
@@ -36,27 +33,28 @@ html {
   grid-template: repeat(2, 1fr);
   justify-content: center;
 }
-
 .header-list ul {
   display: flex;
   align-items: center;
 }
 
 .header-list ul li {
-  list-style: none;
-  text-decoration: none;
-  margin-right: 3rem;
+  margin-right: 5rem;
   border-bottom: solid;
   border-color: transparent;
   transition: all 0.7s ease;
 }
-
+.header-list ul li a {
+  list-style: none;
+  text-decoration: none;
+  color: #3a4750;
+}
 .header-list ul li.active {
   border-bottom: solid;
   border-color: #66bfbf;
   opacity: 1;
+  color: #66bfbf;
 }
-
 .header-list ul li:hover {
   border-bottom: solid;
   border-color: #66bfbf;
@@ -182,7 +180,7 @@ html {
 
 .taps {
   position: absolute;
-  display: none;
+  /* display: none; */
   transition: all 5s ease;
   background-color: #f5f6f7;
   top: 0;
@@ -280,7 +278,7 @@ html {
   justify-content: center;
   align-items: center;
   position: absolute;
-  margin-top: 4rem;
+  margin-top: 100vh;
   right: 0px;
   left: 0;
 }
@@ -442,6 +440,8 @@ html {
   gap: 20px;
   justify-items: center;
   align-content: center;
+  margin-top: 9rem;
+  /* border: solid 2px red; */
 }
 .imgProyect {
   position: relative;
@@ -530,7 +530,7 @@ html {
 .imgProyect:hover {
   z-index: 5;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
-  transform: scale(1.2);
+  /* transform: scale(1.2); */
 }
 
 .imgProyect img {

@@ -46,12 +46,19 @@
           </button>
 
           <div class="collapse navbar-collapse header-list" id="navbarScroll">
-            <ul id="ul" class="navbar-nav navbar-nav-scroll">
-              <li class="nav-item active">Home</li>
-              <li class="nav-item">Project</li>
-              <li class="nav-item">Skills</li>
-              <li class="nav-item">About</li>
-              <!-- <li id="sobre" class="nav-item">proyecto</li> -->
+            <ul class="navbar-nav navbar-nav-scroll">
+              <li class="nav-item active">
+                <a href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="./view/project.html">Project</a>
+              </li>
+              <li class="nav-item">
+                <a href="./skills.html">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a href="./about.html">About</a>
+              </li>
             </ul>
             <br />
           </div>
@@ -68,7 +75,7 @@
 
     <div class="container contenedor-taps">
       <!-- container donde va la información de quien soy  -->
-      <section class="container taps active">
+      <section id="taps1" class="container taps active">
         <div class="container container-text">
           <div class="container containerA-text">
             <div class="text">
@@ -116,8 +123,8 @@
           </div>
         </footer>
       </section>
-
-      <section class="container taps">
+      <!-- 1 -->
+      <section id="taps2" class="container taps">
         <div class="containerProyecto">
           <div class="imgProyect">
             <img src="./img/refugio.png" alt="" />
@@ -141,7 +148,7 @@
               >
             </div>
           </div>
-
+          <!-- 2 -->
           <div class="imgProyect">
             <img src="./img/tablaTarea.png" alt="" />
             <div class="textProyecto">
@@ -163,7 +170,7 @@
               >
             </div>
           </div>
-
+          <!-- 3 -->
           <div class="imgProyect">
             <img src="./img/miTiend.png" alt="" />
             <div class="textProyecto">
@@ -186,7 +193,7 @@
               >
             </div>
           </div>
-
+          <!-- 4 -->
           <div class="imgProyect">
             <img src="./img/lugar.png" alt="" />
             <div class="textProyecto">
@@ -210,7 +217,7 @@
               >
             </div>
           </div>
-          <!-- 4 -->
+          <!-- 5-->
           <div class="imgProyect">
             <img src="./img/rick.png" alt="" />
             <div class="textProyecto">
@@ -222,7 +229,11 @@
                 <span>Date 01/07/2022</span>
               </p>
 
-              <a href="#" class="btn btn-light text-center">See</a>
+              <a
+                href="https://torco34.github.io/appRickAndMorty/"
+                class="btn btn-light text-center"
+                >See</a
+              >
               <a
                 href="https://github.com/torco34/appRickAndMorty"
                 class="btn btn-light"
@@ -230,7 +241,7 @@
               >
             </div>
           </div>
-
+          <!-- 6 -->
           <div class="imgProyect">
             <img src="./img/poke.png" alt="" />
             <div class="textProyecto">
@@ -244,7 +255,7 @@
               <a href="#" class="btn btn-light">GitHub</a>
             </div>
           </div>
-          <!--  -->
+          <!-- 7 -->
           <div class="imgProyect">
             <img src="./img/app.png" alt="" />
             <div class="textProyecto">
@@ -262,18 +273,28 @@
               >
             </div>
           </div>
-
+          <!-- 8 -->
           <div class="imgProyect">
             <img src="./img/landi.png" alt="" />
             <div class="textProyecto">
-              <h3>Apple (<span>( Practica )</span>)</h3>
+              <h3>Landing Pages(<span>( Practica )</span>)</h3>
               <p>
-                Fue creado con solo componentes de tipo función. Tecnología
-                utilizada: React.js, styled-components.<br />
-                <span>Fecha 05/06/2022</span>
+                technologies: React Router, styled-components, React y bootstrap
               </p>
-              <a href="#" class="btn btn-light">See</a>
-              <a href="#" class="btn btn-light">GitHub</a>
+              <p>copy the APPLE</p>
+
+              <span>Fecha 05/10/2022</span>
+              <br />
+              <a
+                href="https://torco34.github.io/pages-apple/"
+                class="btn btn-light"
+                >See</a
+              >
+              <a
+                href="https://github.com/torco34/pages-apple"
+                class="btn btn-light"
+                >GitHub</a
+              >
             </div>
           </div>
         </div>
@@ -300,7 +321,7 @@
       </section>
 
       <!-- tercer bloque -->
-      <section class="container taps">
+      <section id="taps2" class="container taps">
         <div class="container containerTecnologias">
           <div class="tecnolog">
             <div class="card">
@@ -482,7 +503,8 @@
       </section>
     </div>
 
-    <script src="js/bor.js"></script>
+    <!-- <script src="js/bor.js"></script> -->
+    <script src="js/index.js"></script>
     <script src="./js/js/bootstrap.min.js"></script>
   </body>
 </html>
