@@ -323,12 +323,13 @@ html {
 /* SECCION SERCA DE MI */
 /* /////////////////////////////////////
 ////////////////////////////////////// */
-
 .containerSobreMi {
   display: block;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   margin-top: 10rem;
-  background-color: #edf6f6;
+  height: 50vh;
+  background-color: #ebeeee;
+  padding: 40%;
 }
 .containerSobreMi h3 {
   color: #66bfbf;
@@ -337,11 +338,9 @@ html {
 .containerSobreMi p {
   font-weight: bold;
 }
-/* SECCION DEL FOOTER */
-/* ///////////////////////
-/////////////////////////////
-////////////////////////////
- */
+
+/* ////////////////////////////
+//////////////////// */
 
 .contenedorFoder {
   display: flex;

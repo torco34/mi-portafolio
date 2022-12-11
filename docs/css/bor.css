@@ -1,0 +1,157 @@
+body {
+  background-color: #ffffff;
+  color: #3a4750;
+  font-size: 2rem;
+  box-sizing: border-box;
+  font-family: "Abyssinica SIL", serif;
+  min-height: 100vh;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 20px;
+  justify-items: center;
+  align-content: center;
+}
+.img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.img img {
+  width: 100%;
+  height: 100%;
+  transition: all 3s ease;
+}
+.capa span {
+  /* color: #d96098; */
+  color: #66bfbf;
+}
+.capa {
+  position: absolute;
+  cursor: pointer;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #000303;
+  transition: all 500ms ease-out;
+  opacity: 0;
+  text-align: center;
+}
+.img .capa:hover {
+  opacity: 1;
+  filter: grayscale(0%);
+}
+.img .capa:hover > h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.img .capa h3 {
+  color: #66bfbf;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-bottom: 100px;
+  transition: all 500ms ease-out;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+.img .capa p {
+  color: #ffffff;
+  font-size: 1.5rem;
+  line-height: 1.3;
+  width: 100%;
+  max-width: 220px;
+  margin: auto;
+}
+.containerProyecto {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+  gap: 20px;
+  justify-items: center;
+  align-content: center;
+  margin-top: 9rem;
+  /* border: solid 2px red; */
+}
+.imgProyect {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(17, 188, 210, 0.5);
+  transition: all 3s ease;
+  font-family: "Abyssinica SIL", serif;
+}
+.imgProyect2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(11, 11, 11, 0.9);
+  transition: all 0.3s ease;
+  font-family: "Abyssinica SIL", serif;
+}
+.imgProyect2 img {
+  width: 100%;
+  height: 100%;
+  transition: all 3s ease;
+}
+.textProyecto2 {
+  position: absolute;
+  cursor: pointer;
+  padding: 1rem;
+  top: 0px;
+  width: 100%;
+  height: 100vh;
+  background-color: #000303;
+  opacity: 0;
+  text-align: center;
+  transition: all 0.5s ease;
+}
+.textProyecto2:hover > h3 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  color: #66bfbf;
+  transition: all 0.5s ease;
+}
+.textProyecto2:hover {
+  opacity: 1;
+  transition: all 500ms ease-out;
+}
+.textProyecto2 h3 {
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin-bottom: 100px;
+  transition: all 100ms ease-out;
+  text-transform: uppercase;
+}
+.textProyecto2 p {
+  color: #ffffff;
+  font-size: 1.5rem;
+  line-height: 1;
+  width: 100%;
+  max-width: 250px;
+  margin: auto;
+}
+
+.textProyecto2 a {
+  text-align: center;
+  width: 5rem;
+  border: transparent;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  background-color: #fff;
+}
+.textProyecto2 span {
+  color: #66bfbf;
+}
