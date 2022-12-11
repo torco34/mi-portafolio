@@ -21,7 +21,7 @@ html {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 .header-logo h1 {
-  color: #66bfbf;
+  color: #1b9e9e;
   font-weight: bold;
   justify-self: center;
   font-size: 3rem;
@@ -52,13 +52,13 @@ html {
 }
 .header-list ul li.active {
   border-bottom: solid;
-  border-color: #66bfbf;
+  /* border-color: #66bfbf; */
   opacity: 1;
-  color: #66bfbf;
+  color: #1b9e9e;
 }
 .header-list ul li:hover {
   border-bottom: solid;
-  border-color: #66bfbf;
+  border-color: #1b9e9e;
 }
 /* TEXTO DECORATIVO TORCO */
 .container-name {
@@ -74,7 +74,8 @@ html {
 
 .container-name h1 {
   font-family: "Passions Conflict", cursive;
-  color: #66bfbf;
+  /* color: #66bfbf; */
+  color: #1b9e9e;
   font-size: 5rem;
 }
 
@@ -90,7 +91,7 @@ html {
   gap: 1rem;
   height: 50vh;
   margin-top: 10rem;
-  background-color: #edf6f6;
+  background-color: #f5f6f7;
 }
 
 .containerA-text {
@@ -131,12 +132,14 @@ html {
 }
 
 .containerA-botones a {
-  width: 10rem;
-  margin: 2rem;
+  width: 15rem;
+
+  margin: auto;
   color: #fff;
-  background-color: #66bfbf;
+  height: 5vh;
+  background-color: #1b9e9e;
   border: transparent;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 /* SECION DE FOTOS DE HOME */
@@ -176,11 +179,11 @@ html {
 
 .containerProyecto {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(34rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
   gap: 20px;
   justify-items: center;
   align-content: center;
-  margin-top: 9rem;
+  margin-top: 15rem;
 }
 .imgProyect {
   position: relative;
@@ -188,7 +191,7 @@ html {
   height: 40vh;
   overflow: hidden;
   border-radius: 6px;
-  box-shadow: 0 0 10px rgba(30, 204, 227, 0.5);
+  box-shadow: 0 0 10px rgba(10, 10, 10, 0.7);
   transition: all 3s ease;
   font-family: "Abyssinica SIL", serif;
 }
@@ -211,7 +214,8 @@ html {
   top: 0px;
   width: 100%;
   height: 100%;
-  background-color: #66bfbf;
+  background-color: #1b9e9e;
+
   transition: all 0.5s ease;
   opacity: 0;
   text-align: center;
@@ -223,10 +227,14 @@ html {
 .textProyecto:hover > h3 {
   margin-top: 2rem;
   margin-bottom: 1rem;
+  transition: all 0.5s ease;
+
+  text-transform: uppercase;
+  color: #090909;
 }
 .textProyecto p {
-  color: #000303;
-  font-size: 1.6rem;
+  color: #f0f8f8;
+  font-size: 1.8rem;
   line-height: 1.5;
   width: 100%;
   max-width: 250px;
@@ -237,7 +245,7 @@ html {
   text-align: center;
   width: 10rem;
   border: transparent;
-  color: #000303;
+  color: #090909;
   font-size: 2rem;
   margin-top: 1rem;
   background-color: #fff;
@@ -266,7 +274,7 @@ html {
 }
 .tecnolog .card:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  background-color: #66bfbf;
+  background-color: #1b9e9e;
   transition: all 500ms ease-out;
 }
 
