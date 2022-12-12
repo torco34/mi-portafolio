@@ -125,13 +125,40 @@ html {
 
 .containerA-botones a {
   width: 15rem;
-
   margin: auto;
   color: #fff;
   background-color: #1b9e9e;
   border: transparent;
   font-size: 2rem;
 }
+/* boton subir bajar */
+.divBoton {
+  position: absolute;
+  /* display: none; */
+  right: 0px;
+  width: 5%;
+  height: 6vh;
+}
+.boton {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1b9e9e;
+  font-size: 3rem;
+  /* width: 5%; */
+  /* height: 6vh; */
+  border: 4px solid #1b9e9e;
+  /* border: 4px solid #0c1313; */
+}
+
+.boton:hover {
+  color: #130f0f;
+  border: 4px solid #333;
+
+  /* font-size: 3rem; */
+}
+
 /* SECION DE FOTOS DE HOME */
 /* //////////////////////
 ////////////// */
