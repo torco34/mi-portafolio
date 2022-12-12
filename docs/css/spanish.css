@@ -85,7 +85,7 @@ html {
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1rem;
   padding: 2rem;
-  margin-top: 20rem;
+  margin-top: 17rem;
 }
 .containerA-text {
   display: grid;
@@ -134,11 +134,11 @@ html {
 /* boton subir bajar */
 .divBoton {
   position: absolute;
-  /* display: none; */
-  right: 0px;
+  right: 50px;
   width: 5%;
   height: 6vh;
   top: 600px;
+  z-index: 5;
 }
 .boton {
   position: fixed;
@@ -147,10 +147,8 @@ html {
   justify-content: center;
   color: #1b9e9e;
   font-size: 3rem;
-  /* width: 5%; */
-  /* height: 6vh; */
+  background-color: #eaeaea;
   border: 4px solid #1b9e9e;
-  /* border: 4px solid #0c1313; */
 }
 
 .boton:hover {
@@ -217,7 +215,7 @@ html {
 }
 
 .imgProyect2:hover {
-  z-index: 5;
+  /* z-index: 5; */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
 

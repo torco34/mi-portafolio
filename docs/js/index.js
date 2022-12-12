@@ -19,6 +19,6 @@ window.onscroll = () => {
     boton.style.transition = "0.8s";
   } else {
     boton.style.display = "block";
-    boton.style.transition = "1s";
+    boton.style.transition = "0.5s";
   }
 };
