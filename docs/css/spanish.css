@@ -138,9 +138,10 @@ html {
   right: 0px;
   width: 5%;
   height: 6vh;
+  top: 600px;
 }
 .boton {
-  position: relative;
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: center;

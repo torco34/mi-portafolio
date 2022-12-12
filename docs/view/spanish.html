@@ -50,27 +50,29 @@
             id="navbarScroll"
           >
             <ul id="ul" class="navbar-nav navbar-nav-scroll">
-              <li class="nav-item active">Inicio</li>
-              <li class="nav-item">Proyectos</li>
-              <li class="nav-item">Habilidades</li>
-              <li class="nav-item">Sobre Mi</li>
+              <li class="nav-item active"><a href="#inicio">Inicio</a></li>
+              <li class="nav-item"><a href="#proyectos">Proyectos</a></li>
+              <li class="nav-item"><a href="#habilidades">Habilidades</a></li>
+              <li class="nav-item"><a href="#demi">Sobre Mi</a></li>
             </ul>
             <br />
           </div>
         </div>
       </nav>
     </header>
-    <section class="container">
+    <section id="inicio" class="container">
       <div class="container-name">
         <h1 class="">Torcoroma Arias Ascanio</h1>
       </div>
     </section>
 
     <div class="container">
-      <div class="divBoton">
-        <button class="btn boton">
-          <span class="icon-eject"></span>
-        </button>
+      <div id="boton" class="divBoton">
+        <a href="#inicio">
+          <button class="btn boton">
+            <span class="icon-eject"></span>
+          </button>
+        </a>
       </div>
     </div>
     <div class="containe">
@@ -109,7 +111,7 @@
       </section>
       <br />
       <!-- tap de proyectos -->
-      <section class="container">
+      <section id="proyectos" class="container">
         <div class="container-name p-2">
           <h1 class="">Mis Proyectos</h1>
         </div>
@@ -325,7 +327,7 @@
         </div>
       </section>
 
-      <section class="container">
+      <section id="habilidades" class="container">
         <div class="container-name p-2">
           <h1 class="">Mis Habilidades</h1>
         </div>
@@ -480,7 +482,7 @@
 
         <!-- 5 -->
       </section>
-      <section class="container">
+      <section id="demi" class="container">
         <div class="container-name p-2">
           <h1 class="">Sobre mi</h1>
         </div>
@@ -527,7 +529,7 @@
         </footer>
       </section>
     </div>
-    <script src="../js/bor.js"></script>
+    <script src="../js/index.js"></script>
     <script src="../js/js/bootstrap.min.js"></script>
   </body>
 </html>
