@@ -1,6 +1,7 @@
 body {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   color: #3a4750;
+  background-color: #eaeaea;
   font-size: 2rem;
   box-sizing: border-box;
   font-family: "Abyssinica SIL", serif;
@@ -63,10 +64,9 @@ html {
 /* TEXTO DECORATIVO TORCO */
 .container-name {
   position: relative;
-  top: 8rem;
+  top: 10rem;
   left: 0;
   right: 0;
-  background-color: #eaeaea;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,7 +74,7 @@ html {
 .container-name h1 {
   font-family: "Passions Conflict", cursive;
   color: #1b9e9e;
-  font-size: 5rem;
+  font-size: 6rem;
 }
 
 /* section de text home  */
@@ -84,9 +84,8 @@ html {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1rem;
-  margin-top: 13rem;
-  background-color: #eaeaea;
   padding: 2rem;
+  margin-top: 20rem;
 }
 .containerA-text {
   display: grid;
@@ -126,7 +125,7 @@ html {
 
 .containerA-botones a {
   width: 15rem;
-  height: 5vh;
+
   margin: auto;
   color: #fff;
   background-color: #1b9e9e;
@@ -158,7 +157,7 @@ html {
 
 .containerDiv-foto h4 {
   font-weight: bold;
-  color: #66bfbf;
+  color: #1b9e9e;
   font-size: 2rem;
 }
 .containerDiv-foto h2 {
@@ -175,7 +174,7 @@ html {
   gap: 20px;
   justify-items: center;
   align-content: center;
-  margin-top: 15rem;
+  margin-top: 20rem;
 }
 
 .imgProyect2 {
@@ -263,9 +262,8 @@ html {
   gap: 20px;
   justify-items: center;
   align-content: center;
-  margin-top: 100px;
-  /* background-color: #c9f3f3; */
-  padding: 20px;
+  margin-top: 20rem;
+  /* padding: 20px; */
 }
 .img {
   position: relative;
@@ -327,12 +325,16 @@ html {
   display: block;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   margin-top: 10rem;
-  background-color: #c9f3f3;
+  background-color: #eaeaea;
   padding: 20%;
+  font-size: 3rem;
+  font-family: "Abyssinica SIL", serif;
 }
 .containerSobreMi h3 {
   color: #66bfbf;
   font-weight: bold;
+  font-size: 3rem;
+  margin-bottom: 1rem;
 }
 .containerSobreMi p {
   font-weight: bold;

@@ -63,10 +63,9 @@ html {
 /* TEXTO DECORATIVO TORCO */
 .container-name {
   position: relative;
-  top: 8rem;
+  top: 10rem;
   left: 0;
   right: 0;
-  background-color: #f5f6f7;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,9 +73,8 @@ html {
 
 .container-name h1 {
   font-family: "Passions Conflict", cursive;
-  /* color: #66bfbf; */
   color: #1b9e9e;
-  font-size: 5rem;
+  font-size: 6rem;
 }
 
 /* INFORMACION DE HOME TEXTO, Y FOTO*/
@@ -89,9 +87,8 @@ html {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1rem;
-  height: 50vh;
-  margin-top: 10rem;
-  background-color: #f5f6f7;
+  padding: 2rem;
+  margin-top: 20rem;
 }
 
 .containerA-text {
@@ -136,8 +133,8 @@ html {
 
   margin: auto;
   color: #fff;
-  height: 5vh;
   background-color: #1b9e9e;
+
   border: transparent;
   font-size: 2rem;
 }
@@ -165,7 +162,7 @@ html {
 
 .containerDiv-foto h4 {
   font-weight: bold;
-  color: #66bfbf;
+  color: #1b9e9e;
   font-size: 2rem;
 }
 .containerDiv-foto h2 {
@@ -183,7 +180,7 @@ html {
   gap: 20px;
   justify-items: center;
   align-content: center;
-  margin-top: 15rem;
+  margin-top: 20rem;
 }
 .imgProyect {
   position: relative;
@@ -228,7 +225,6 @@ html {
   margin-top: 2rem;
   margin-bottom: 1rem;
   transition: all 0.5s ease;
-
   text-transform: uppercase;
   color: #090909;
 }
@@ -264,7 +260,7 @@ html {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1rem;
-  margin-top: 9rem;
+  margin-top: 20rem;
 }
 .tecnolog .card {
   padding: 1rem;
@@ -334,13 +330,11 @@ html {
 .containerSobreMi {
   display: block;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  margin-top: 10rem;
-  height: 50vh;
-  background-color: #ebeeee;
+  margin-top: 20rem;
   padding: 40%;
 }
 .containerSobreMi h3 {
-  color: #66bfbf;
+  color: #1b9e9e;
   font-weight: bold;
 }
 .containerSobreMi p {
@@ -356,7 +350,7 @@ html {
   justify-content: center;
   align-items: center;
   position: absolute;
-  margin-top: 30vh;
+  margin-top: 31vh;
   right: 0px;
   left: 0;
 
