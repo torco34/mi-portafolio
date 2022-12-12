@@ -62,8 +62,6 @@ html {
 }
 /* TEXTO DECORATIVO TORCO */
 .container-name {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   position: relative;
   top: 10rem;
   left: 0;
@@ -76,7 +74,7 @@ html {
 .container-name h1 {
   font-family: "Passions Conflict", cursive;
   color: #1b9e9e;
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 /* INFORMACION DE HOME TEXTO, Y FOTO*/
