@@ -25,7 +25,8 @@ html {
   color: #66bfbf;
   font-weight: bold;
   justify-self: center;
-  font-size: 3rem;
+  /* font-size: calc(1em + 1vw); */
+  /* font-size: 3rem; */
   margin-left: 9rem;
   font-family: "Passions Conflict", cursive;
 }
@@ -75,7 +76,6 @@ html {
   font-family: "Passions Conflict", cursive;
   color: #1b9e9e;
   font-size: calc(2em + 1.5vw);
-  border: solid 4px red;
 }
 
 /* section de text home  */
@@ -87,7 +87,6 @@ html {
   gap: 1rem;
   padding: 2rem;
   margin-top: 15rem;
-  border: solid 4px red;
 }
 .containerA-text {
   display: grid;
@@ -98,7 +97,7 @@ html {
   justify-self: center;
   align-self: center;
   padding: 2rem;
-  color: #333;
+  /* color: #333; */
 }
 .text h2 {
   display: flex;

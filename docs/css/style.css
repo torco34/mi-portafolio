@@ -74,7 +74,7 @@ html {
 .container-name h1 {
   font-family: "Passions Conflict", cursive;
   color: #1b9e9e;
-  font-size: 4rem;
+  font-size: calc(2em + 1.5vw);
 }
 
 /* INFORMACION DE HOME TEXTO, Y FOTO*/
@@ -88,7 +88,7 @@ html {
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1rem;
   padding: 2rem;
-  margin-top: 20rem;
+  margin-top: 15rem;
 }
 
 .containerA-text {
@@ -180,7 +180,7 @@ html {
   gap: 20px;
   justify-items: center;
   align-content: center;
-  margin-top: 20rem;
+  margin-top: 15rem;
 }
 .imgProyect {
   position: relative;
