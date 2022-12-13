@@ -75,8 +75,8 @@ html {
 .container-name h1 {
   font-family: "Passions Conflict", cursive;
   color: #1b9e9e;
-  font-size: calc(1.5em + 1.5vw);
-  border: solid 4px red;
+  font-size: calc(2em + 1.5vw);
+  /* border: solid 4px red; */
 }
 
 /* section de text home  */
