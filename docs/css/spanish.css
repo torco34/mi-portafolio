@@ -2,11 +2,10 @@ body {
   /* background-color: #ffffff; */
   color: #3a4750;
   background-color: #eaeaea;
-  /* font-size: 2rem; */
+  font-size: 2rem;
   box-sizing: border-box;
   font-family: "Abyssinica SIL", serif;
   min-height: 100vh;
-  font-size: calc(1em + 1vw);
 }
 
 html {
@@ -76,7 +75,7 @@ html {
   font-family: "Passions Conflict", cursive;
   color: #1b9e9e;
   font-size: calc(2em + 1.5vw);
-  /* border: solid 4px red; */
+  border: solid 4px red;
 }
 
 /* section de text home  */
@@ -87,7 +86,8 @@ html {
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1rem;
   padding: 2rem;
-  margin-top: 17rem;
+  margin-top: 15rem;
+  border: solid 4px red;
 }
 .containerA-text {
   display: grid;
