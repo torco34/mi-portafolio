@@ -25,8 +25,7 @@ html {
   color: #66bfbf;
   font-weight: bold;
   justify-self: center;
-  /* font-size: calc(1em + 1vw); */
-  /* font-size: 3rem; */
+  font-size: 3rem;
   margin-left: 9rem;
   font-family: "Passions Conflict", cursive;
 }
@@ -86,7 +85,7 @@ html {
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1rem;
   padding: 2rem;
-  margin-top: 15rem;
+  margin-top: 16rem;
 }
 .containerA-text {
   display: grid;
@@ -97,7 +96,6 @@ html {
   justify-self: center;
   align-self: center;
   padding: 2rem;
-  /* color: #333; */
 }
 .text h2 {
   display: flex;
@@ -201,7 +199,7 @@ html {
   gap: 20px;
   justify-items: center;
   align-content: center;
-  margin-top: 20rem;
+  margin-top: 16rem;
 }
 
 .imgProyect2 {
@@ -289,8 +287,7 @@ html {
   gap: 20px;
   justify-items: center;
   align-content: center;
-  margin-top: 20rem;
-  /* padding: 20px; */
+  margin-top: 16rem;
 }
 .img {
   position: relative;
@@ -351,7 +348,7 @@ html {
 .containerSobreMi {
   display: block;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  margin-top: 10rem;
+  margin-top: 16rem;
   background-color: #eaeaea;
   padding: 20%;
   font-size: 3rem;

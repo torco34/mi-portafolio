@@ -88,7 +88,7 @@ html {
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1rem;
   padding: 2rem;
-  margin-top: 15rem;
+  margin-top: 16rem;
 }
 
 .containerA-text {
@@ -130,11 +130,9 @@ html {
 
 .containerA-botones a {
   width: 15rem;
-
   margin: auto;
   color: #fff;
   background-color: #1b9e9e;
-
   border: transparent;
   font-size: 2rem;
 }
@@ -180,7 +178,7 @@ html {
   gap: 20px;
   justify-items: center;
   align-content: center;
-  margin-top: 15rem;
+  margin-top: 16rem;
 }
 .imgProyect {
   position: relative;
@@ -260,7 +258,7 @@ html {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1rem;
-  margin-top: 20rem;
+  margin-top: 16rem;
 }
 .tecnolog .card {
   padding: 1rem;
@@ -330,7 +328,7 @@ html {
 .containerSobreMi {
   display: block;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  margin-top: 20rem;
+  margin-top: 16rem;
   padding: 40%;
 }
 .containerSobreMi h3 {
