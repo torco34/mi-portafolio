@@ -17,7 +17,7 @@ html {
   position: fixed;
   min-width: 100%;
   z-index: 1;
-  background-color: #f5f6f7;
+  background-color: #ffffff;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 .header-logo h1 {
@@ -74,6 +74,7 @@ html {
 .container-name h1 {
   font-family: "Passions Conflict", cursive;
   color: #1b9e9e;
+
   font-size: calc(2em + 1.5vw);
 }
 
@@ -192,7 +193,6 @@ html {
 }
 
 .imgProyect:hover {
-  z-index: 5;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
 
@@ -286,8 +286,6 @@ html {
   cursor: pointer;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
   transition: all 500ms ease-out;
-  transform: scale(1.2);
-  z-index: 5;
 }
 .tecnolog h3 {
   font-weight: bold;

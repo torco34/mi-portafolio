@@ -18,11 +18,12 @@ html {
   position: fixed;
   min-width: 100%;
   z-index: 1;
-  background-color: #f5f6f7;
+  background-color: #eaeaea;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 .header-logo h1 {
-  color: #66bfbf;
+  /* color: #66bfbf; */
+  color: #aa8b56;
   font-weight: bold;
   justify-self: center;
   font-size: 3rem;
@@ -53,13 +54,13 @@ html {
 }
 .header-list ul li.active {
   border-bottom: solid;
-  border-color: #1b9e9e;
+  border-color: #aa8b56;
   opacity: 1;
-  color: #1b9e9e;
+  /* color: #1b9e9e; */
 }
 .header-list ul li:hover {
   border-bottom: solid;
-  border-color: #1b9e9e;
+  border-color: #aa8b56;
 }
 /* TEXTO DECORATIVO TORCO */
 .container-name {
@@ -73,7 +74,8 @@ html {
 }
 .container-name h1 {
   font-family: "Passions Conflict", cursive;
-  color: #1b9e9e;
+  /* color: #1b9e9e; */
+  color: #aa8b56;
   font-size: calc(2em + 1.5vw);
 }
 
@@ -126,7 +128,7 @@ html {
   width: 15rem;
   margin: auto;
   color: #fff;
-  background-color: #1b9e9e;
+  background-color: #aa8b56;
   border: transparent;
   font-size: 2rem;
 }
@@ -144,10 +146,10 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #1b9e9e;
+  color: #aa8b56;
   font-size: 3rem;
   background-color: #eaeaea;
-  border: 4px solid #1b9e9e;
+  border: 4px solid #aa8b56;
 }
 
 .boton:hover {
@@ -182,7 +184,7 @@ html {
 
 .containerDiv-foto h4 {
   font-weight: bold;
-  color: #1b9e9e;
+  color: #aa8b56;
   font-size: 2rem;
 }
 .containerDiv-foto h2 {
@@ -269,7 +271,7 @@ html {
 }
 .textProyecto2 span {
   border: transparent;
-  color: #66bfbf;
+  color: #aa8b56;
 }
 
 .textProyecto2 h3 {
@@ -303,8 +305,8 @@ html {
   transition: all 3s ease;
 }
 .capa span {
-  /* color: #d96098; */
-  color: #66bfbf;
+  /* color: #AA8B56; */
+  color: #aa8b56;
 }
 .capa {
   position: absolute;
@@ -326,7 +328,7 @@ html {
   margin-bottom: 10px;
 }
 .img .capa h3 {
-  color: #66bfbf;
+  color: #aa8b56;
   font-weight: 400;
   font-size: 1.5rem;
   margin-bottom: 100px;
@@ -355,7 +357,7 @@ html {
   font-family: "Abyssinica SIL", serif;
 }
 .containerSobreMi h3 {
-  color: #66bfbf;
+  color: #aa8b56;
   font-weight: bold;
   font-size: 3rem;
   margin-bottom: 1rem;
