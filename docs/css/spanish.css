@@ -21,14 +21,9 @@ html {
   background-color: #eaeaea;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
-.header-logo h1 {
-  /* color: #66bfbf; */
-  color: #aa8b56;
-  font-weight: bold;
+.header-logo img {
   justify-self: center;
-  font-size: 3rem;
   margin-left: 9rem;
-  font-family: "Passions Conflict", cursive;
 }
 
 .header-list {
